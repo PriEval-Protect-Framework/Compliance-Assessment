@@ -68,9 +68,8 @@ class Qdrant:
 
 
 
-    def search_Qdrant(self):
+    def search_Qdrant(self, query):
 
-        query = "What are the principles for lawful data processing?"
         query_vector = self.model.encode(query).tolist()
 
         search_results = self.qdrant.query_points(
@@ -99,5 +98,8 @@ if __name__ == "__main__":
 
     QdrantEmbedding = Qdrant()
     QdrantEmbedding.embed_gdpr()
-    QdrantEmbedding.search_Qdrant()
+
+    query = "What are the principles for lawful data processing?"
+    QdrantEmbedding.search_Qdrant(query)
+    
     # QdrantEmbedding.delete_collection()
