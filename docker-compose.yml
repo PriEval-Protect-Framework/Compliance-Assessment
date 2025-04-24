@@ -1,0 +1,15 @@
+version: '3'
+services:
+  qdrant:
+    image: qdrant/qdrant
+    ports:
+      - 6333:6333
+      - 6334:6334
+    volumes:
+      - qdrant_storage:/qdrant/storage
+    environment:
+      - QDRANT_ALLOW_RECOVERY_MODE=true
+
+volumes:
+  qdrant_storage:
+    driver: local
