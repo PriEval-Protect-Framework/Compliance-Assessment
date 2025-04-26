@@ -1,5 +1,6 @@
 import yaml
 import requests
+import re
 
 class LLMReport:
     def __init__(self, model_url: str, model_name: str, report_path: str):
@@ -34,8 +35,15 @@ class LLMReport:
         response.raise_for_status()
 
         result = response.json()["message"]["content"]
-        print("\n\nLLM Compliance Report:\n")
-        print(result)
+        # print("\n\nLLM Compliance Report:\n")
+        # print(result)
+
+        match = re.search(r"(The policy is .*?)$", result, re.DOTALL | re.IGNORECASE)
+
+        if match:
+            result = match.group(1)
+        else:
+            result = result
 
         with open("report/llm_report.txt", "w") as f:
             f.write(result)
