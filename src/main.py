@@ -3,6 +3,9 @@ from sentence_transformers import SentenceTransformer
 from langchain_community.document_loaders import PyMuPDFLoader
 import re
 import os
+import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
+import sys
 
 class RegulationCompare:
 
@@ -88,188 +91,192 @@ class RegulationCompare:
     def generate_embeddings_batch(self, generator, batch_size):
         return self.model.encode(generator, batch_size=batch_size, normalize_embeddings=True)
 
+
+    def construct_article_dict(self):
+
+        articles_dict = {} # {"article_name": {"embedding": np.array, "text": str}}
+        points, _  = regulation.qdrant.scroll(collection_name=regulation.collection_name, with_payload=True,with_vectors=True, limit=10000)
+        
+        for point in points:
+            article_name = point.payload["article"]
+            article_text = point.payload["text"]
+            article_vector = np.array(point.vector)
+
+            core_article_name = re.search(r"Article\s+\d+", article_name)
+            if core_article_name:
+                key = core_article_name.group()
+            else:
+                continue 
+
+            if key not in articles_dict:
+                articles_dict[key] = []
+
+            articles_dict[key].append({
+                "embedding": article_vector,
+                "text": article_text,
+                "uuid": point.id
+            })
+
+        return articles_dict
     
-    def total_similarity_score(self, embeddings, similarity_threshold=0.7, article_weights=None):
+    def cosine_sim(self, a, b):
+        return float(cosine_similarity([a], [b])[0][0])
+
+    def total_similarity_score(self, policy_chunk_embeddings, articles, pdf_chunks_text, pdf_name, article_weights={}, similarity_threshold=0.5):
         """
-        Calculate similarity score between embeddings and GDPR articles.
-        
+        Assess GDPR compliance by evaluating how well each GDPR article is covered by hospital policy chunks.
+
         Args:
-            embeddings: List of embedding vectors to compare against GDPR articles
-            similarity_threshold: Minimum similarity score to consider a match (default: 0.7)
-            article_weights: Dictionary mapping article names to their weights (optional)
-            
+            policy_chunk_embeddings (List[np.array]): List of chunk embeddings
+            articles (dict): {article_name: {"embedding": np.array, "text": str}}
+            policy_chunk_texts (List[str]): List of chunk texts
+            similarity_threshold (float): Threshold above which an article is considered "covered"
+            article_weights (dict): Optional weights for GDPR articles (should sum to 1)
+
         Returns:
-            float: Compliance score (0-100)
-        """
-        
-        # THIS WILL LATER BE FURTHER TUNED
-        if article_weights is None:
-            article_weights = {
-                "Article 5": 0.2,  # Principles
-                "Article 6": 0.15, # Lawfulness
-                "Article 9": 0.1,  # Special categories
-                "Article 12": 0.05, # Transparent information
-                "Article 13": 0.15, # Information to be provided
-                "Article 17": 0.05, # Right to erasure
-                "Article 25": 0.1,  # Data protection by design
-                "Article 32": 0.1,  # Security of processing
-                "Article 35": 0.05, # Data protection impact assessment
-                "Article 44": 0.05, # Transfer of personal data
-                # ... weights should sum to 1
+            dict: {
+                "weighted_score": float,
+                "coverage_score": float,
+                "article_scores": dict,
+                "missing_articles": list,
+                "report_path": str
             }
-        
-        article_scores = {}
-        
+        """
+    
+
         os.makedirs("test", exist_ok=True)
-        
-        with open("test/report.txt", "w") as f:
-            f.write("GDPR Compliance Report\n")
+        report_path = "test/final_report.txt"
+        with open(report_path, "w") as f:
+            f.write("GDPR Compliance Report (Article → Chunk Evaluation)\n")
+            f.write(pdf_name + "\n")
             f.write("=" * 80 + "\n")
-        
-        # Process each policy chunk
-        for idx, query_vector in enumerate(embeddings):
 
-            search_results = self.qdrant.query_points(
-                collection_name="gdpr_articles",
-                query=query_vector,
-                limit=1,  # top 1 match
-                with_payload=True
-            ).points
-            
-            if not search_results:
-                continue
-            
-            top_point = search_results[0]
-            score = top_point.score
-            payload = top_point.payload
-            full_article_name = payload.get("article", "Unknown Article")
-            
-            article_match = re.search(r"(Article\s+\d+)", full_article_name)
-            recital_match = re.search(r"recital-(\d+)", full_article_name)
-            
-            if article_match:
-                article = article_match.group(1)
-            elif recital_match:
-                article = f"Recital {recital_match.group(1)}" 
-            else:
-                article = full_article_name
-            
-            if score >= similarity_threshold:
-                if article not in article_scores:
-                    article_scores[article] = 0.001
-                    
-                article_scores[article] = max(article_scores[article], score)
-                
-                with open("test/report.txt", "a") as f:
-                    f.write(f"Chunk {idx + 1}:\n")
-                    f.write(f"Matched Article: {full_article_name}\n")
-                    f.write(f"Normalized Name: {article}\n")
-                    f.write(f"Text: {payload.get('text', '')[:200]}...\n")  
-                    f.write(f"Similarity Score: {score:.4f}\n")
-                    f.write("-" * 80 + "\n")
-        
-        for article in article_weights:
-            if article not in article_scores:
-                article_scores[article] = 0.001
-        
-        weighted_score = 0.0
+        article_scores = {}
         missing_articles = []
-        
-        for article, weight in article_weights.items():
-            score = article_scores.get(article, 0.0)
-            weighted_score += score * weight
-            if score < similarity_threshold:
-                missing_articles.append(article)
-        
-        # Apply penalty for missing critical articles (10% per missing article)
-        penalty = min(0.9, 0.1 * len(missing_articles))  # Cap penalty at 90%
-        weighted_final_score = max(0.0, weighted_score * (1 - penalty))
-        weighted_final_score = round(weighted_final_score * 100, 2)
-        
-        fully_covered = 0
-        partially_covered = 0
-        not_covered = 0
-        
-        for article in article_weights:
-            max_score = article_scores.get(article, 0.0)
-            if max_score > 0.8:  # Strong match
-                fully_covered += 1
-            elif max_score > 0.5:  # Partial match
-                partially_covered += 1
-            else:
-                not_covered += 1
-        
-        total_articles = len(article_weights)
-        
-        if total_articles > 0:
-            compliance_score = (fully_covered + 0.5 * partially_covered) / total_articles
-            compliance_score = round(compliance_score * 100, 2)
-        else:
-            compliance_score = 0.0
-        
-        with open("test/report.txt", "a") as f:
-            f.write("\nSummary:\n")
-            f.write(f"Weighted Compliance Score: {weighted_final_score}/100\n")
-            f.write(f"Coverage-Based Compliance Score: {compliance_score}/100\n")
-            f.write(f"Coverage Metrics:\n")
-            f.write(f"Fully Covered Articles (>0.8): {fully_covered}\n")
-            f.write(f"Partially Covered Articles (0.5–0.8): {partially_covered}\n")
-            f.write(f"Not Covered Articles (≤0.5): {not_covered}\n")
-            f.write("Article Coverage:\n")
-            
-            for article in sorted(article_weights.keys()):
-                score = article_scores.get(article, 0.0)
-                f.write(f"{article}: {score:.4f}\n")
-                
-            for article, score in sorted(article_scores.items()):
-                if article not in article_weights and score >= similarity_threshold:
-                    f.write(f"{article} (not weighted): {score:.4f}\n")
-                    
-            if missing_articles:
-                f.write(f"Missing or Weak Coverage (below {similarity_threshold}): {', '.join(missing_articles)}\n")
-            f.write("=" * 80 + "\n")
-        
-        return compliance_score
 
+        for article_name, article_entries in articles.items():
+            best_score = 0.0
+            best_text = ""
+            best_chunk_idx = -1
+
+            for article_entry in article_entries:
+                article_embedding = article_entry["embedding"]
+                for idx, chunk_vec in enumerate(policy_chunk_embeddings):
+                    score = self.cosine_sim(chunk_vec, article_embedding)
+                    if score > best_score:
+                        best_score = score
+                        best_chunk_idx = idx
+                        best_text = article_entry["text"]
+
+            article_scores[article_name] = best_score
+
+            with open(report_path, "a") as f:
+                f.write(f"{article_name}:\n")
+                f.write(f"Best Matching Chunk ID: {best_chunk_idx + 1 if best_chunk_idx >= 0 else 'N/A'}\n")
+                f.write(f"Best Matching Chunk Text: {pdf_chunks_text[best_chunk_idx][:250].strip()}...\n")
+                f.write(f"Best Similarity Score: {best_score:.4f}\n")
+                f.write(f"Article Preview: {best_text[:250].strip()}...\n")
+                f.write("-" * 80 + "\n")
+
+            if best_score < similarity_threshold:
+                missing_articles.append(article_name)
+
+        # Weighted score calculation
+        weighted_score = sum(article_scores.get(a, 0.0) * w for a, w in article_weights.items())
+        penalty = min(0.5, 0.05 * len(missing_articles))  # 5% penalty per missing article, capped at 90%
+        final_score = round(weighted_score * (1 - penalty) * 100, 2)
+
+        # Coverage score (simple heuristic)
+        fully = sum(1 for score in article_scores.values() if score > 0.7)
+        partial = sum(1 for score in article_scores.values() if 0.5 < score <= 0.7)
+        none = len(article_scores) - fully - partial
+        coverage_score = round((fully + 0.5 * partial) / len(article_scores) * 100, 2)
+
+        with open(report_path, "a") as f:
+            f.write("\nSummary:\n")
+            f.write(f"Weighted Compliance Score: {final_score}/100\n")
+            f.write(f"Coverage-Based Score: {coverage_score}/100\n")
+            f.write(f"Fully Covered Articles (>0.7): {fully}\n")
+            f.write(f"Partially Covered Articles (0.5–0.7): {partial}\n")
+            f.write(f"Not Covered Articles (≤0.5): {none}\n")
+            if missing_articles:
+                f.write(f"Articles Below Threshold ({similarity_threshold}): {', '.join(missing_articles)}\n")
+            f.write("=" * 80 + "\n")
+
+        return {
+            "weighted_score": final_score,
+            "coverage_score": coverage_score,
+            "article_scores": article_scores,
+            "missing_articles": missing_articles,
+            "report_path": report_path
+        }
     
 
 if __name__=="__main__":
 
+    if len(sys.argv) < 2:
+        print("Usage: python main.py <pdf_path>")
+        sys.exit(1)
+
+    pdf_path = sys.argv[1]
+
+    article_weights = {
+        "Article 5": 0.15,
+        "Article 6": 0.10,
+        "Article 7": 0.05,
+        "Article 12": 0.05,
+        "Article 13": 0.025,
+        "Article 14": 0.025,
+        "Article 15": 0.025,
+        "Article 16": 0.025,
+        "Article 17": 0.025,
+        "Article 18": 0.025,
+        "Article 19": 0.025,
+        "Article 20": 0.025,
+        "Article 21": 0.025,
+        "Article 22": 0.025,
+        "Article 24": 0.05,
+        "Article 25": 0.10,
+        "Article 30": 0.05,
+        "Article 32": 0.10,
+        "Article 33": 0.025,
+        "Article 34": 0.025,
+        "Article 35": 0.05,
+        "Article 37": 0.025,
+        "Article 38": 0.015,
+        "Article 39": 0.01,
+    }
+
+
     regulation = RegulationCompare("GDPR")
-    pdf_paths = ["data/policies/NHG-Privacy-Policy-2021.pdf", 
-                "data/policies/HIPAA-Privacy-Policy-dtd-1.1.22-1.pdf",
-                "data/policies/AHA-Privacy-Policy-2021.pdf",
-                "data/policies/Data-Protection-Policy-2021.pdf",
-                "data/policies/Gertrudes-Hospital-Healthcare-Privacy-Policy.pdf",
-                "data/policies/SHIP-DPO-MANUAL.pdf"
-            ]
+    # pdf_paths = ["data/policies/NHG-Privacy-Policy-2021.pdf", 
+    #             "data/policies/HIPAA-Privacy-Policy-dtd-1.1.22-1.pdf",
+    #             "data/policies/AHA-Privacy-Policy-2021.pdf",
+    #             "data/policies/Data-Protection-Policy-2021.pdf",
+    #             "data/policies/Gertrudes-Hospital-Healthcare-Privacy-Policy.pdf",
+    #             "data/policies/SHIP-DPO-MANUAL.pdf"
+    #         ]
     
-    for pdf_path in pdf_paths:
-        pdf_name = pdf_path.split("/")[-1]
-        text = regulation.load_pdf(pdf_path)
-
-        with open("test/pdfs.txt", "a") as f:
-            f.write(pdf_name+ "\n")
-            f.write(text)
+    articles_dict = regulation.construct_article_dict()
+    pdf_name = pdf_path.split("/")[-1]
+    text = regulation.load_pdf(pdf_path)
+    with open("test/pdfs.txt", "w") as f:
+        f.write(pdf_name+ "\n")
+        f.write(text)
+        f.write("-" * 80 + "\n")
+    text_chunks = regulation.structure_aware_chunker(text)
+    with open("test/chunks.txt", "w") as f:
+        f.write("*" * 80 + "\n")
+        f.write(pdf_name+ "\n")
+        for chunk in text_chunks:
+            f.write(chunk + "\n")
             f.write("-" * 80 + "\n")
-
-        text_chunks = regulation.structure_aware_chunker(text)
-
-        with open("test/chunks.txt", "a") as f:
-            f.write("*" * 80 + "\n")
-            f.write(pdf_name+ "\n")
-            for chunk in text_chunks:
-                f.write(chunk + "\n")
-                f.write("-" * 80 + "\n")
-
-        if not isinstance(text_chunks, list):
-            text_chunks = list(text_chunks)
-
-        embeddings = regulation.generate_embeddings_batch(text_chunks, batch_size=32)
-
-        similarity_score = regulation.total_similarity_score(embeddings)
-
-        print(f"Total similarity score: {similarity_score} for {pdf_name}")
+    if not isinstance(text_chunks, list):
+        text_chunks = list(text_chunks)
+    embeddings = regulation.generate_embeddings_batch(text_chunks, batch_size=32)
+    pdf_chunks_text = {i: text for i, text in enumerate(text_chunks)}
+    similarity_score = regulation.total_similarity_score(embeddings, articles_dict, pdf_chunks_text, pdf_name, article_weights)
+    # print(f"Total similarity score: {similarity_score} for {pdf_name}")
 
 
 
