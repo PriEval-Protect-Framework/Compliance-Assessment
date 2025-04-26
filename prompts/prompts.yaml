@@ -1,0 +1,19 @@
+compliance_analysis:
+  description: Analyze a policy chunk and assess its compliance with GDPR.
+  template: |
+    [INSTRUCTION]
+    Assess whether the following hospital privacy policy chunk aligns with the listed GDPR article.
+    Give a short verdict: [Compliant | Partially Compliant | Not Compliant]
+    Then justify your answer in 1–2 sentences.
+    Finally provide three suggestions to improve the policy to be more compliant with the GDPR article in a numbered list.
+
+    [INPUT]
+    Compliance Report: {report}
+
+    [OUTPUT]
+    Verdict: ...
+    Justification: ...
+    Suggestions:
+    1. ..
+    2. ..
+    3. ..
