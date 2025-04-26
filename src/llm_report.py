@@ -9,7 +9,7 @@ class LLMReport:
         self.report_path = report_path
 
     def generate_report(self):
-        with open("./prompts/prompts.yaml", "r") as f:
+        with open("../prompts/prompts.yaml", "r") as f:
             prompts = yaml.safe_load(f)
 
         template = prompts["compliance_analysis"]["template"]
@@ -45,14 +45,16 @@ class LLMReport:
         else:
             result = result
 
-        with open("report/llm_report.txt", "w") as f:
+        with open("../report/llm_report.txt", "w") as f:
             f.write(result)
+
+        return result
 
 
 if __name__ == "__main__":
     ollama_base_url = "http://localhost:11434"
     model_name = "llama3.2:3b"
-    report_path = "./report/final_report.txt"
+    report_path = "../report/final_report.txt"
 
     llm_report = LLMReport(ollama_base_url, model_name, report_path)
     llm_report.generate_report()

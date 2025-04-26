@@ -205,9 +205,10 @@ class RegulationCompare:
         return {
             "weighted_score": final_score,
             "coverage_score": coverage_score,
-            "article_scores": article_scores,
+            "fully_covered": fully,
+            "partially_covered": partial,
+            "not_covered": none,
             "missing_articles": missing_articles,
-            "report_path": report_path
         }
     
 
