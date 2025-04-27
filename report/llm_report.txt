@@ -2,16 +2,24 @@ The policy is **Partially Compliant** with GDPR.
 
 **Justification:**
 
-The policy covers a significant number of articles from the General Data Protection Regulation (GDPR), with 89 out of 100 articles receiving some level of coverage. However, there are several areas where the policy falls short:
+The policy covers 51.03% of the articles in the GDPR regulation, indicating a moderate level of compliance. However, there are several areas where the policy falls short:
 
-* Articles 16-21 and 29-38 receive relatively low coverage scores, indicating that these areas may require more attention to ensure compliance.
-* Articles 73, 72, and 99 are not fully covered, indicating gaps in the policy's implementation.
-* Some articles, such as Article 84, have coverage scores below 0.5, suggesting that they may be underrepresented or not adequately addressed in the policy.
+* Articles below threshold (≤0.5): Articles 73, 72, and 99 are not fully covered by the policy.
+* Partially covered articles (0.5–0.7): Articles 16, 31, 48, and 63 are partially covered, but with significant gaps in their explanation.
+* Not covered articles (≤0.5): Several articles, including 50, 77, and 86, are not mentioned at all.
+
+To improve compliance, the policy should:
+
+1. **Provide detailed explanations** for partially covered articles, ensuring that they meet the minimum requirements of GDPR.
+2. **Address gaps** in coverage for Articles 73, 72, and 99 by providing more specific guidance or alternatives.
+3. **Include relevant examples** to illustrate how each article applies to real-world scenarios.
+
+By addressing these areas, the policy can be further strengthened to ensure a higher level of compliance with GDPR regulations.
 
 **Recommendations:**
 
-1. Conduct a thorough review of Articles 16-21 and 29-38 to ensure that these areas are properly addressed in the policy.
-2. Develop more comprehensive guidelines for implementing Articles 73, 72, and 99 to address the gaps identified.
-3. Increase coverage scores for Article 84 by providing more detailed information on penalties applicable to infringements of GDPR.
+1. Review and revise Article 73 to provide clear guidelines on data protection by design and default.
+2. Enhance explanations for Articles 16, 31, and 48 to ensure that they meet the minimum requirements of GDPR.
+3. Develop examples and case studies to illustrate how each article applies to real-world scenarios.
 
-By addressing these areas, the organization can strengthen its compliance with GDPR and ensure that its data protection policy is robust and effective.
+By implementing these recommendations, the policy can become more comprehensive and effective in ensuring compliance with GDPR regulations.
