@@ -1,12 +1,14 @@
+import os
 import yaml
 import requests
 import re
 
 class LLMReport:
-    def __init__(self, model_url: str, model_name: str, report_path: str):
-        self.ollama_base_url = model_url.rstrip("/")
-        self.model_name = model_name
-        self.report_path = report_path
+    def __init__(self, model_url: str = None, model_name: str = None, report_path: str = None):
+        # Use environment variables or fallback defaults
+        self.ollama_base_url = (model_url or os.getenv("OLLAMA_HOST", "http://localhost:11434")).rstrip("/")
+        self.model_name = model_name or os.getenv("OLLAMA_MODEL", "llama3.2:3b")
+        self.report_path = report_path or os.getenv("REPORT_PATH", "../report/final_report.txt")
 
     def generate_report(self):
         with open("../prompts/prompts.yaml", "r") as f:
@@ -35,15 +37,11 @@ class LLMReport:
         response.raise_for_status()
 
         result = response.json()["message"]["content"]
-        # print("\n\nLLM Compliance Report:\n")
-        # print(result)
 
         match = re.search(r"(The policy is .*?)$", result, re.DOTALL | re.IGNORECASE)
 
         if match:
             result = match.group(1)
-        else:
-            result = result
 
         with open("../report/llm_report.txt", "w") as f:
             f.write(result)
@@ -52,9 +50,5 @@ class LLMReport:
 
 
 if __name__ == "__main__":
-    ollama_base_url = "http://localhost:11434"
-    model_name = "llama3.2:3b"
-    report_path = "../report/final_report.txt"
-
-    llm_report = LLMReport(ollama_base_url, model_name, report_path)
+    llm_report = LLMReport()  # Automatically pulls from env or defaults
     llm_report.generate_report()

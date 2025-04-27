@@ -5,6 +5,14 @@ from regulation_compare import RegulationCompare
 import shutil
 import os
 import uuid
+import gc
+import torch
+from qdrant import Qdrant
+
+# Use environment variable or fallback to local
+OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://localhost:11434")
+MODEL_NAME = os.getenv("OLLAMA_MODEL", "llama3.2:3b")
+REPORT_PATH = os.getenv("REPORT_PATH", "../report/final_report.txt")
 
 app = FastAPI()
 
@@ -16,8 +24,18 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# @app.on_event("startup")
+# def startup_event():
+#     qdrant_instance = Qdrant()
+#     qdrant_instance.embed_gdpr()
+
+
 @app.post("/gdpr/evaluate")
 async def evaluate_gdpr_policy(policy: UploadFile = File(...)):
+    qdrant_instance = Qdrant()
+    qdrant_instance.embed_gdpr()
+
+
 
     file_id = str(uuid.uuid4())
     file_path = f"../uploads/{file_id}_{policy.filename}"
@@ -40,7 +58,7 @@ async def evaluate_gdpr_policy(policy: UploadFile = File(...)):
     articles_dict = regulation.construct_article_dict()
     text = regulation.load_pdf(file_path)
     with open("../report/pdfs.txt", "w") as f:
-        f.write(policy.filename+ "\n")
+        f.write(policy.filename + "\n")
         f.write(text)
         f.write("-" * 80 + "\n")
 
@@ -52,7 +70,7 @@ async def evaluate_gdpr_policy(policy: UploadFile = File(...)):
 
     with open("../report/chunks.txt", "w") as f:
         f.write("*" * 80 + "\n")
-        f.write(policy.filename+ "\n")
+        f.write(policy.filename + "\n")
         for chunk in text_chunks:
             f.write(chunk + "\n")
             f.write("-" * 80 + "\n")
@@ -62,11 +80,15 @@ async def evaluate_gdpr_policy(policy: UploadFile = File(...)):
     score = regulation.total_similarity_score(embeddings, articles_dict, chunk_map, policy.filename, article_weights)
 
     llm_report = LLMReport(
-        model_url="http://localhost:11434",
-        model_name="llama3.2:3b",
-        report_path="../report/final_report.txt"
+        model_url=OLLAMA_HOST,
+        model_name=MODEL_NAME,
+        report_path=REPORT_PATH
     )
-    llm_report=llm_report.generate_report()
+    llm_report = llm_report.generate_report()
+
+    gc.collect()
+    torch.cuda.empty_cache()
+    torch.cuda.ipc_collect()
 
     return {
         "filename": policy.filename,
