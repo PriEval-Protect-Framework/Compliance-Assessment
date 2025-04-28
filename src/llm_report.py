@@ -13,12 +13,18 @@ class LLMReport:
 
     def generate_report(self):
         print("[LLMReport] Starting report generation")
-        prompts_path = "../prompts/prompts.yaml"
+
+        BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        prompts_path = os.path.join(BASE_DIR, "prompts")
+        REPORT_DIR = os.path.join(BASE_DIR, "report")
+
+
+
         
         if not os.path.exists(prompts_path):
             return "Error: Prompts file not found"
             
-        with open(prompts_path, "r") as f:
+        with open(f"{prompts_path}/prompts.yaml", "r") as f:
             prompts = yaml.safe_load(f)
         if "compliance_analysis" not in prompts or "template" not in prompts["compliance_analysis"]:
             return "Error: Invalid prompts file structure"
@@ -40,13 +46,19 @@ class LLMReport:
             ],
             "stream": False
         }
-        response = requests.post(ollama_url, json=payload)
+        try:
+            response = requests.post(ollama_url, json=payload, timeout=20)
+            response.raise_for_status()
+            result = response.json()["message"]["content"]
+        except requests.exceptions.RequestException as e:
+            print(f"[LLMReport] Error during Ollama request: {e}")
+            return f"LLM report generation failed: {e}"
         response.raise_for_status()
         result = response.json()["message"]["content"]
         match = re.search(r"(The policy is .*?)$", result, re.DOTALL | re.IGNORECASE)
         if match:
             result = match.group(1)
-            output_path = "../report/llm_report.txt"
+            output_path = f"{REPORT_DIR}/llm_report.txt"
             os.makedirs(os.path.dirname(output_path), exist_ok=True)
             
             with open(output_path, "w", encoding="utf-8") as f:

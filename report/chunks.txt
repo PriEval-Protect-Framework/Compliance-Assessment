@@ -1,202 +1,344 @@
 ********************************************************************************
-SHIP-DPO-MANUAL.pdf
-a) Treatment and Communication
-Your health data is used to supply you with medical treatment or services. We may utilize and
-share health data about you with physicians, nurses, allied medical personnel, case managers,
-or other SHIP Clinic personnel included in your care. Different divisions of the clinic may also
-share health data about you to coordinate the services you need, such as, outsourced
-laboratory and other diagnostic centers.
-In special cases, we may also disclose your health data to providers not affiliated with the Clinic
-to facilitate care or treatment they provide you. These include other physicians outside SHIP
-Clinic who are involved in your care outside the clinic setting or in case of hospital admission,
-and other medical referral system.
-Electronic exchange of health data helps guarantee better coordination of care. The doctors
-and other medical staff of SHIP Clinic utilize digital technology in order to facilitate faster and
-prompt referrals within the healthcare team. They may utilize messaging platforms such as
-SMS, emails, Viber, Messenger and other comparable services in order to communicate with
-the team.
-Upon your request, we may send electronic results of your laboratory and other diagnostic
-tests to you or your authorized representative. We may also utilize and disclose health data to
-contact you as a reminder that you have an appointment for care at SHIP Clinic. We will
-communicate with you using the data (such as telephone number and email address) that you
-provide us. Unless you notify us to the contrary, we may use the contact information you
-provide to communicate general information about your care such as appointment location,
-department, date and time, as well as for patient experience and satisfaction surveys.
+NHG-Privacy-Policy-2021.pdf
+1.0
+Changelog
+Version Date
+Author
+Description
+Privacy Policy
+This encompasses all privacy issues relating to POPIA
+Author:
+Creation date:
+Linda Motaung
+01/08/2021
+Doc. Ref.:
+Version:
+Privacy Policy – NHG V1.0
 --------------------------------------------------------------------------------
-b) Billing and Collection
-We may utilize and disclose your personal and health data to confirm, charge and receive
-payment for health care services that we or others give to you. This includes submission of your
-health data to receive payment from Philhealth, or other party that pays for some or all of your
-health care or to verify that your payor will pay for your health care. We may also tell your
-payor about a treatment you are going to get to determine whether your payor will cover the treatment. For certain services, in the event that your authorization is required to release
-health data to obtain payment, you will be asked for authorization.
-In cases of non-payment, your personal and health data will be sent to legal services for
-collection purposes who may conduct credit investigations and send demand letters to collect
-payment for services provided to you.
+1.0
+Distribution
+This document will be distributed to:
+Name
+Title
+Date of Issue
+Version Version 1.0 01082021
+PRIVACY POLICY
+National Health Group (Pty) Ltd incorporating Enablemed (Pty) Ltd, hereinafter referred to as
+National HealthCare Group, recognises the importance of protecting personal information and
+the constitutional right of its customers to have their personal information kept private,
+confidential and used only for lawful purposes. As prescribed in the POPI Act (Act 4 of 2013),
+the National HealthCare Group aims to adhere to all data protection laws and has
+implemented safeguards to ensure that all the personal information relating to its customers
+is kept safe from unauthorised access.
+Please read this Privacy Policy carefully to understand how your personal information
+will be handled by National HealthCare Group.
 --------------------------------------------------------------------------------
-c) Health Care Processes and Professional Services
-We may utilize and disclose health data for health care operations. This includes functions vital
-to run SHIP Clinic and guarantee that all patients receive quality care. We may moreover share
-your data with partnered health care providers so that they may jointly perform certain
-business operations along with SHIP Clinic. We may combine health data about many of our
-patients to improve on the services being offered, to decide what services are no longer
-required and to assess whether certain treatments are viable.
-We may share data with physicians, nurses, allied medical personnel, part-time staff, or other
-SHIP Clinic personnel to guarantee quality assurance and compliance with measures of care.
-We may also compare the health data we have with data from other treatment facilities to see
-where we can improve the care and services we offer. In these occurrences, SHIP Clinic will
-work to anonymize, cover or mask, encrypt or de-identify your personal and health data as
-much as possible.
-SHIP Clinic contracts with outside entities that perform business services for us, such as Global
-Virtuoso, government entities, billing companies, management specialists, quality  assurance
-specialists, accounting or legal firm. In certain circumstances, we may need to share your health
-data with a business associate so it can perform a service on our behalf. We will have a data
-sharing agreement or written contract in place with the business associate requiring protection
-of the privacy and security of your health data.
+1. ABOUT THE GROUP
+National Health Group (Pty) Ltd is a legally registered Managed Care and Healthcare
+Administrator that provides healthcare services to low-income Employer groups, Insurers and
+the Medical-Aid industry. The Group is subject to various South African laws as a healthcare
+service provider and adheres to the ethical rules that protect the privacy and confidentiality of
+its member’s personal information, namely the POPI Act.
+Contact details of the Group:
+Physical Address:
+Office 0302, Mill House, Boundary Terraces, Corner Campground and
+Mariendahl Lane, Newlands, 7700, Cape Town
+Postal Address:
+PO Box 44331, Claremont, 7700
+Telephone Number: 021 276 5600
+Email address:
+compliance@nationalhealthcare.co.za
+Website address:
+www.nationalhealthcare.co.za
 --------------------------------------------------------------------------------
-d) Legal Compliance and Health-Related Services
-We may disclose your data to the Department of Health and other fitting government agencies
-for activities authorized by law such as reviews, investigations, inspections, and licensure.
-When vital to prevent a serious risk to your health and security or the health and security of
-others, we may utilize and disclose certain data about you. Such disclosure will only be to
-someone able to prevent or respond to the threat, such as law enforcement, or a potential
-victim.
-We may also use or divulge health data about you when required to do so by laws not
-specifically mentioned in this Policy.
+2. INFORMATION OFFICER
+Information Officer of the Group:
+Name:
+Patrick Lubbe
+Email:
+compliance@nationalhealthcare.co.za
+Telephone:
+0860 002 400
 --------------------------------------------------------------------------------
-e) Research and Training
-As an affiliated clinic for the SHIP Foundation, the organization’s personnel may utilize and
-access your health data. We will have an information sharing agreement or written contract in
-place with SHIP Foundation requiring protection of the privacy and security of your health data. SHIP Clinic has an active research program. We for the most part, ask for your written consent
-before asking you to participate, use your health data, or share it with others to conduct
-research. Under limited circumstances, we may utilize and disclose your health data without
-your consent. In these situations, we will anonymize, veil or mask, encrypt or de-identify data
-to protect your information and so that no patient is individually identifiable. We will obtain
-approval through an autonomous review process to ensure that research conducted without
-your consent poses negligible risk to your privacy.
+3.1 “Data subject” refers to the person (e.g., member) or entity to whom the personal
+information relates.
 --------------------------------------------------------------------------------
-f) Other uses and disclosures
-SHIP Clinic does not require prior consent or authorization in the disclosure of your health data
-in the following occasions:
-Public Health Activities
-•
-To prevent or control disease, harm or disability;
-•
-To report births and deaths;
-•
-To report the abuse or neglect of children, senior citizens and dependent adults;
-•
-To report reactions to medications or issues with products;
-•
-To inform you of the recall of products you may be using;
-•
-To inform a person who may have been exposed to a disease or may be at risk for
-contracting or spreading a disease or condition;
-•
-To inform the suitable government authority if we believe you have been the victim
-of abuse, neglect or domestic violence; we will only make this disclosure when
-required or authorized by law;
-•
-To inform the Department of Health and other appropriate government agencies
-when you seek treatment at SHIP Clinic for certain diseases or conditions mandated
-to be reported by law.
-•
-Disputes and Lawsuits
-To guarantee the quality of care you get while seeking treatment at SHIP Clinic, we may access
-and disclose your health data if you have concerns or complaints with respect to your medical
-management at SHIP Clinic. We may also access and disclose your health data if you bring a
-lawsuit against SHIP Clinic, its officials, nurses, allied medical personnel and other employees
-and physicians.
-In the event that you are involved in a lawsuit, we may disclose health data about you in
-response to a court or administrative order or in response to a subpoena, lawfully enforceable
-discovery request, or other lawful process by someone else involved in the dispute.
+3.2 “Personal information” has the meaning assigned to it in POPIA and refers to
+information relating to human beings and certain juristic persons. It includes information Version 1.0 01082021
+such as race, gender, pregnancy, age, health status and medical information, date of birth,
+identity number, contact details and confidential correspondence.
 --------------------------------------------------------------------------------
-B. Storage, Security, Retention and Destruction
-SHIP Clinic will guarantee that personal and health data under its custody are secured against
-any inadvertent or illegal destruction, modification and disclosure as well as against any other
-illegal processing. SHIP Clinic will execute suitable security measures in storing collected
-personal and health data. All health data gathered and kept in medical records shall be retained
-for as long as the patient regularly seeks treatment at the institution. Hard copies of medical records more than five (5) years old shall be kept at a secure off-site facility. After an inactive
-period of fifteen (15) years, hard copies of medical records shall be brought to an appropriate
-facility for melting and destruction with secure protocols in place. Electronic copies of medical
-records shall be held for a comparable period.
-Rights Relating to your Health Information
-An imperative portion of SHIP Clinic’s Privacy Policy is this segment which clarifies your data
-privacy rights regarding your health data. You (or your authorized representative) have the
-right to:
-•
-Be informed
-•
-Reasonable access to your health data
-•
-Request a rectification to your personal data
-•
-An accounting of hospital disclosures of your health data
-•
-Request confinements on certain utilization and disclosures of your health
-information
-•
-Receive a copy of SHIP Clinic’s Privacy Policy
+3.3 “Processing” has the meaning assigned to it in POPIA and refers to any operation or
+activity concerning personal information, such as the collection, receipt, recording,
+storage, updating, alteration, use, distribution, erasure, or destruction of the information.
 --------------------------------------------------------------------------------
-a) Information
-You have the right to be educated that your personal and health data will be, are being, or
-were, collected and handled. You have the right to be educated of the purposes for which they
-will be, are being, or were processed and the duration for which the information will be kept.
+3.4 “POPIA/ POPI Act” means the Protection of Personal Information Act (Act 4 of 2013) and
+its Regulations.
 --------------------------------------------------------------------------------
-b) Reasonable Access of your Health Information
-You have the right to obtain a copy of your relevant health data. The medical data available to
-you are the following:
-•
-Clinical Abstract/Discharge Summary
-•
-Laboratory and other diagnostic results
-•
-Consent for Admission and/or Procedure
-•
-Medical Certificate
-To request for a duplicate of your medical records, you may send an email request to SHIP
-Clinic’s email address. SHIP Clinic may charge a fee for the cost of providing copies to you.
+3.5 “We” / “us” refers to National Health Group (NHG) also known as National Healthcare.
+This definition includes Enablemed (Pty) Ltd, as the latter is a fully owned subsidiary of
 --------------------------------------------------------------------------------
-c) Request a Correction to your Personal Information
-In the event that the personal data SHIP Clinic has on file about you is erroneous or incomplete,
-you may ask us to rectify the personal data in your records. If your personal data is accurate
-and complete, or if the data was not made by the clinic, we may deny your request. If we deny
-any part of your request, we will provide you with a written clarification of our reasons for
-doing so. Requests to make a correction to your records must be in writing and must describe
-each item that you want changed and the reason you are requesting the change. We may
-require extra documentation from you or your authorized representative as proof before
-preparing your request.
+3.6 “Member” / “You” / “Customers” refers to the data subject (i.e., the person or entity)
+whose personal information is processed by the Group.
 --------------------------------------------------------------------------------
-d) An Accounting of Clinic Disclosures of your Personal and Health Information You have the right to request a list of how your personal data was shared for purposes other
-than treatment, payment, health care operations and lawful compliance. Your health data on
-the other hand, will never be shared with third parties without your authorization.
+4. APPLICATION OF THE PRIVACY POLICY
+This Privacy Policy applies to personal information that we have in our possession or under
+our control and personal information that we collect from our customers. It stipulates, amongst
+others, how we collect the information, the type of information collected, why that information
+is collected, the circumstances under which that information will be shared with others, the
+security measures that we have implemented to protect the information and how you may
+obtain access to correct your information.
 --------------------------------------------------------------------------------
-e) Request Restrictions on Certain Uses and Disclosures of Your Medical Information
-You have the right to request reasonable limitations on certain uses or disclosures of your
-personal and health data. Requests for limitations must be in writing. In most cases, we are not
-required to agree to your requested restriction. However, in the event that we do concur, we
-will comply with your request unless the information is needed to provide you emergency
-treatment or comply with the law.
-Some examples of restriction requests that the clinic cannot honor include:
+5. OUR COMMITMENT
+We understand the importance of protecting personal information thus we are committed to
+conducting our business activities lawfully in accordance with the Privacy laws of the Republic.
+We will, therefore, only process, which includes collect, use, store or disclose, our members
+personal information in accordance with the law to offer contractually approved healthcare
+services and we will always strive to keep our members personal information confidential. We
+have implemented a number of processes to make sure that the personal information of our
+members that is in our care is used responsibly and protected in the right way.
+We apply the following principles in order to protect our members privacy:
 •
-Requests to restrict other clinic staff from accessing your medical data.
+We only collect the personal information that is necessary,
 •
-Requests restricting the clinic from giving your name to an individual that will be
-asked to pay a portion of your bill.
+We only use personal information for the purposes specified in this Privacy Policy,
 •
-Request restricting the clinic from reporting your identity and condition to an entity
-or organization where the clinic is required by law to do so.
+We do not keep personal information longer than needed for lawful purposes; and
 •
-Inquiries and Complaints
-The confidentiality of your health data is a significant part of the care we provide to you. For
-things relating to the handling of your protected health data or if you believe that your privacy
-rights have been violated, you may file a written complaint with our Data Privacy Management
-Department via:
-Email: shipclinicshaw@gmail.com
-Mail: Data Protection Officer
-Data Privacy Management Department
-SHIP Clinic
-566 Shaw Boulevard, Mandaluyong City
-Effectivity
-The provisions of this Policy are effective this date until amended.
+We only share our members personal information as specified in this Privacy Policy and
+as permitted in terms of the law. Version 1.0 01082021
+--------------------------------------------------------------------------------
+6. COLLECTION OF PERSONAL INFORMATION
+The Group collects personal information directly from its customers who are Employer groups,
+Insurers and Medical Aid schemes as part of carrying out its contractual duties. At times, the
+Group may directly collect personal information from registered members of Employer groups,
+Insurers/ Medial Aid schemes when they supply information on the Group’s website or on the
+various interactive social media communication platforms.
+Personal Information may also be collected from other sources, depending on the
+circumstances, when it is, for example, not possible to obtain the information directly from
+members or to protect the legitimate interests of members as part of a provision of medical
+services. The information may be collected from persons, such as the members next-of-kin,
+other health care practitioners involved in the care or when the members information is publicly
+available. The information that we collect about members is necessary to ensure they are
+provided with the contractually required healthcare services.
+--------------------------------------------------------------------------------
+7. PROCESSING OF YOUR PERSONAL INFORMATION
+There are various laws that permit the processing of personal information in the provision of
+contractual healthcare services such as the National Health Act, POPI Act and the Medical
+Schemes Act. Employment laws of the Republic permit the processing of employee’s
+information by the employer for the fulfilment of legal administrative obligations.
+As far as the Company understands, all personal information is deemed private and attended
+to according to the POPI Act. We process the personal information listed below, if applicable
+in the circumstances, and retain it as part of our records:
+--------------------------------------------------------------------------------
+7.1    Records relating to the formation of the company:
+Documents related to the establishment of the company, CIPC documents,
+memorandum of incorporation, its directors and shareholders records as required in
+terms of the Companies Act 71 of 2008; a shareholders’ agreement; shareholders
+register, other statutory records; governance documents (e.g., company policies,
+minutes of meetings); company number registration and other related documents.
+--------------------------------------------------------------------------------
+7.2
+Employment records:
+Employment contracts; conditions of employment and workplace policies; skills
+development plans and training records; salary register; relevant tax records; leave
+records; medical scheme membership records; Pension and Provident fund records;
+performance indicators and other correspondence. In the provision of caring of
+employees relevant medical and disability information, including Covid-19 screening Version 1.0 01082021
+information may be collected.
+In the case of Job applicants, the Group collects information such as titles, identity
+numbers, dates of birth, age, contact details, addresses, HPCSA / statutory council
+number, nationality, gender, race, qualifications, specialisation, interests, vetting and
+other information that may be included on CVs. This information is destroyed should the
+employment process not move forward with the applicant. In the case of successful
+employment, the details form part of the employee file which is subject to POPIA
+protection laws.
+--------------------------------------------------------------------------------
+7.3
+Health administration records:
+In the provision of healthcare services, the National Health Group may collect however
+not limited to the following: Member medical records; photos, healthcare benefits; patient
+communication; names and contact details of next-of-kin, billing and payment details,
+claim related information such as procedures performed / treatment provided and
+relevant reports (e.g., radiological images and reports, pathology results), and other
+information on health-related services.
+--------------------------------------------------------------------------------
+7.5
+Clinical trial / research studies records:
+No records are kept by the company related to clinical trials / research studies.
+--------------------------------------------------------------------------------
+7.6
+Health and safety records:
+Health and safety reports and other regulatory compliance records required by the law.
+--------------------------------------------------------------------------------
+7.7
+Financial records:
+Financial statements; auditors’ reports; accounting records; bank statements; invoices,
+statements and receipts; remittance advices; tax returns and related documentation.
+--------------------------------------------------------------------------------
+7.8
+Records related to assets:
+Asset register; purchase records; licences; financing and lease agreements; sale and
+purchase agreements; delivery notes and orders.
+--------------------------------------------------------------------------------
+7.9
+Agreements:
+Agreements and related documentation with service providers, contractors, consultants,
+suppliers, vendors, medical schemes, doctors who are approved providers, professional
+assistants and other business-related agreements. Version 1.0 01082021
+--------------------------------------------------------------------------------
+7.10 Public and private body (e.g., regulators and medical schemes) records:
+Official accreditation documents; benefit schedules and other healthcare administration
+related correspondence.
+--------------------------------------------------------------------------------
+7.11 Insurance records (including professional indemnity cover):
+Policies, cover, claims and related records.
+--------------------------------------------------------------------------------
+8. CONSENT
+The processing of personal information is subject to the consent received through contractual
+agreements with the various Employer Groups, Insurers and Medical Aid Schemes. Consent
+of member may be withdrawn at any time. This does not affect the processing of personal
+information that has already occurred. Should a member withdraw consent through the
+Employer Group, Insurer and Medical Aid scheme, this will be processed as provided for in
+the law.
+--------------------------------------------------------------------------------
+9. OBJECTION TO PROCESSING
+When we process personal information, it is with the intention to promote our members
+healthcare interests, to ensure that their healthcare benefits are accessed and processed
+according to the relevant rules. The members may however object to our processing, if it is
+reasonable to do so. This must occur on the form prescribed by POPI Act, available at
+reception / from the Group’s Information Officer or from the Information Regulator. This does
+not affect the personal information that has already processed. Should a member object and
+the Group agrees with the objection, the members personal information will only be processed
+as provided for in the law.
+--------------------------------------------------------------------------------
+10. PURPOSES OF PROCESSING OF YOUR PERSONAL INFORMATION
+All Information that the Group collects is collected with the aim of providing healthcare services
+as per our contractual agreements.
+The collected information is used to carry out business activities such as:
+•
+Information is used for the administration of the contracted healthcare service,
+•
+Information is used for the provision of managed care services on the contracted
+healthcare plan,
+•
+Information is used for the provision of relevant information to a contracted third party
+who requires this information in order to provide a healthcare service to members and
+beneficiaries on our healthcare plan, Version 1.0 01082021
+•
+Information is used for reporting to persons and bodies, as required and authorised in
+terms of the law or by the data subjects,
+•
+Information is used for employment / contracting and related matters of the Groups
+employees,
+•
+Information may be used, at the request of the regulator for the support of law
+enforcement structures, including courts and tribunals,
+•
+Information may be used for any other lawful purpose related to the activities of the
+Group.
+--------------------------------------------------------------------------------
+11. DISCLOSURE OF YOUR PERSONAL INFORMATION
+We will share only relevant personal information about our members with our business
+partners if it is necessary and lawful in the provision of healthcare services. We share this
+personal information with our service providers that help with our business activities, including
+but not limited to benefit management, claim processing, bank refunds and other health care
+administration related services. In adherence to the POPI Act, we require our service providers
+to keep our members personal information safe and secure. We do not allow our service
+providers to use or share our members personal information for any purpose other than
+providing services on our behalf.
+We do not sell or provide personal information to third parties for independent use. However,
+as a healthcare services provider and administrator, we do share personal information with
+our healthcare business partners and suppliers when that information is required to provide
+the healthcare service necessary to carry out services.
+Our business partners, suppliers and service providers are committed to adhering to the POPI
+Act and to using the members information only as directed by us and as per our contractual
+agreements with the relevant Employer Groups, Insurers/ Medical Aid Schemes.
+--------------------------------------------------------------------------------
+12. RECORD-KEEPING
+We maintain the records of our members personal information for as long as legally required
+for the lawful executing of our business activities, in the provision of healthcare services.
+--------------------------------------------------------------------------------
+13. INFORMATION SENT ACROSS THE BORDERS OF THE REPUBLIC OF SOUTH AFRICA
+We process and store our members information in records within the Republic South Africa. If
+we must provide personal information to any third party in another country, we will obtain prior
+consent from members unless such information may be lawfully provided to that third party. Version 1.0 01082021
+--------------------------------------------------------------------------------
+14. SECURITY OF YOUR PERSONAL INFORMATION
+We value the information that our members choose to provide us for business purposes and
+will therefore take reasonable steps to protect this personal information from loss, misuse or
+unauthorised alteration. The information we maintain concerning our members is stored in
+databases that have built-in safeguards to ensure the privacy and confidentiality of that
+information.
+We have implemented safeguards, continually review and update our information protection
+measures to ensure the security, integrity, and confidentiality of the information in accordance
+with industry best practices. We use industry-standard technology and encryption to prevent
+any unauthorised access to the personal information. We use security technology to ensure
+that the health-related transactions and client personal information stored with us are
+adequately secured and protected at all times. Electronic transactions are held in a secure
+environment, with controlled staff access subject to the application of appropriate passwords
+and other computer and software security techniques. Physically the offices are secured
+through industry standard office locking technology.
+We also require our employees and contractors to adhere to our information protection
+standards, only those employees and service providers that require access to member
+information to discharge their functions and to render services to us are granted access to the
+information. In the interest of providing secure healthcare services to our customers, our
+suppliers and employees have concluded agreements with or provided undertakings
+regarding the implementation of appropriate security measures, maintaining confidentiality
+and processing the information only for the agreed purposes.
+Whilst we will do all things reasonably necessary to protect our members personal information,
+we cannot guarantee nor do we accept any liability of whatsoever nature for any unauthorised
+or unlawful disclosure and/or use of the members personal information, either by employees
+and/or made by any third parties (including third party service providers) who are not subject
+to our control, unless such disclosure and/or use is as a result of our gross negligence. We
+will inform the affected member and the Information Regulator, if any person has unlawfully
+obtained access to a member’s personal information, subject to the provisions of the law.
+--------------------------------------------------------------------------------
+15. RIGHT TO ACCESS YOUR PERSONAL INFORMATION
+Upon a reasonable request and in accordance with the POPI Act, members have the right to
+request access to the personal information in our possession or under our control and
+information of third parties to whom we supplied that information subject to restrictions Version 1.0 01082021
+imposed in legislation. Should a member wish to exercise this right, the prescribed form needs
+to be completed, available at reception / from the Information Officer and the Information
+Regulator. This may be submitted to the Group’s compliance mail address:
+compliance@nationalhealthcare.co.za. Costs may be applicable to such request, which can
+be obtained from the Information Regulator/ Group receptionist / Group Information Officer.
+Please consult our PAIA Manual for further information.
+--------------------------------------------------------------------------------
+16. ACCURACY OF YOUR PERSONAL INFORMATION
+It is important that we always have accurate information about our members on record as it
+could impact our provision of service and reliable communication. Our members must
+therefore inform us as soon as any of their information has changed. They may also request
+us to correct or delete any information. Such a request must be made in writing on the
+prescribed form, available at reception / from the Information Officer, and be submitted to the
+receptionist / Information Officer/ Compliance e-mail address. There must be sufficient detail
+to identify the information and the correction / deletion required. Information will only be
+corrected / deleted, if we agree that the information is incorrect or should be deleted.
+It may not be possible to delete all the information if we may lawfully retain it. Please enquire
+at reception or contact the Information Officer to discuss how we can assist you with your
+request. If we correct any information and the corrected information will impact on any decision
+made or to be made about the member, we will send the corrected information to persons to
+whom the information has been disclosed in the past if they should be aware of the changed
+information.
+--------------------------------------------------------------------------------
+17. CHANGES TO THIS PRIVACY POLICY
+National Health Group reserves the right in our sole and absolute discretion, to revise or
+supplement this Privacy Policy from time to time to reflect, amongst others, any changes in
+our business or the law. We will publish the updated Privacy Policy on our website. It will also
+be available at the company’s office reception. Any revised version of the Policy will be
+effective as of the date of posting on the website, so you should always refer back to the
+website for the latest version of the Policy.
+It is our members/customers responsibility to make sure they are satisfied with any
+changes before continuing to use our services. If you have any questions concerning this
+Policy, please contact our compliance e-mail address or the Information Officer. Version 1.0 01082021
+--------------------------------------------------------------------------------
+18. CONCERNS AND COMPLAINTS ABOUT THE PROCESSING OF YOUR PERSONAL INFORMATION
+All enquiries, requests or concerns regarding this Policy or relating to the processing of
+personal information by the Group should be addressed to the Information Officer. You may
+also lodge a complaint with the Information Regulator at complaints.IR@justice.gov.za. We
+would appreciate the opportunity to respond to your concerns before you approach the
+Information Regulator.
+--------------------------------------------------------------------------------
+19. LAWS APPLICABLE TO THIS PRIVACY POLICY
+This Privacy Policy is governed by the laws of the Republic of South Africa.
 --------------------------------------------------------------------------------

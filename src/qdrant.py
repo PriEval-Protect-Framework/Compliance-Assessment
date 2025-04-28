@@ -32,7 +32,12 @@ class Qdrant:
         return chunks
 
     def embed_gdpr(self, skip_existing=True):
-        json_path = "../data/gdpr/gdpr_articles_recitals.jsonl"
+
+        BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        DATA_DIR = os.path.join(BASE_DIR, "data")
+
+
+        json_path = f"{DATA_DIR}/gdpr/gdpr_articles_recitals.jsonl"
         if not os.path.exists(json_path):
             raise FileNotFoundError(f"GDPR source file not found at {json_path}")
 
@@ -134,10 +139,19 @@ class Qdrant:
         else:
             print(f"Collection {collection_name} does not exist.")
 
+    def check_collection(self, collection_name="gdpr_articles"):
+        if self.qdrant.collection_exists(collection_name):
+            print(f"Collection {collection_name} exists.")
+            return True
+        print(f"Collection {collection_name} does not exist.")
+        return False
+
 
 if __name__ == "__main__":
     QdrantEmbedding = Qdrant()
-    QdrantEmbedding.embed_gdpr()
+    if not QdrantEmbedding.check_collection("gdpr_articles"):
+        print("[Qdrant] Collection does not exist, creating and embedding GDPR articles.")
+        QdrantEmbedding.embed_gdpr()
 
-    query = "What are the principles for lawful data processing?"
-    QdrantEmbedding.search_Qdrant(query)
+    # query = "What are the principles for lawful data processing?"
+    # QdrantEmbedding.search_Qdrant(query)

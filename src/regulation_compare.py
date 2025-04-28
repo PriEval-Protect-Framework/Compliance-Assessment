@@ -201,9 +201,13 @@ class RegulationCompare:
         print(f"[RegComp] Using similarity threshold of {similarity_threshold}")
 
         try:
-            os.makedirs("report", exist_ok=True)
-            report_path = "report/final_report.txt"
+            BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+            REPORT_DIR = os.path.join(BASE_DIR, "report")
+
+            os.makedirs(REPORT_DIR, exist_ok=True)
+            report_path = f"{REPORT_DIR}/final_report.txt"
             print(f"[RegComp] Writing report to {report_path}")
+
             
             with open(report_path, "w", encoding="utf-8") as f:
                 f.write("GDPR Compliance Report (Article → Chunk Evaluation)\n")

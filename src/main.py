@@ -30,14 +30,22 @@ app.add_middleware(
 @app.post("/gdpr/evaluate")
 async def evaluate_gdpr_policy(policy: UploadFile = File(...)):
     qdrant_instance = Qdrant()
-    qdrant_instance.embed_gdpr()
+
+    if not qdrant_instance.check_collection("gdpr_articles"):
+        print("[Qdrant] Collection does not exist, creating and embedding GDPR articles.")
+        qdrant_instance.embed_gdpr()
 
 
     print(f"[API] Received policy upload: {policy.filename}")
 
     file_id = str(uuid.uuid4())
-    file_path = f"../uploads/{file_id}_{policy.filename}"
-    os.makedirs("../uploads", exist_ok=True)
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    UPLOADS_DIR = os.path.join(BASE_DIR, "uploads")
+    REPORT_DIR = os.path.join(BASE_DIR, "report")
+
+    file_path = os.path.join(UPLOADS_DIR, f"{file_id}_{policy.filename}")
+    os.makedirs(UPLOADS_DIR, exist_ok=True)
+
     
     with open(file_path, "wb") as buffer:
         shutil.copyfileobj(policy.file, buffer)
@@ -61,7 +69,7 @@ async def evaluate_gdpr_policy(policy: UploadFile = File(...)):
     
     print("[API] Loading PDF content")
     text = regulation.load_pdf(file_path)
-    with open("../report/pdfs.txt", "w") as f:
+    with open(f"{REPORT_DIR}/pdfs.txt", "w") as f:
         f.write(policy.filename+ "\n")
         f.write(text)
         f.write("-" * 80 + "\n")
@@ -77,7 +85,7 @@ async def evaluate_gdpr_policy(policy: UploadFile = File(...)):
         traceback.print_exc()
         return {"error": "Chunking failed. Please check the input file, it must be a hospital regulation."}
 
-    with open("../report/chunks.txt", "w", encoding="utf-8") as f:
+    with open(f"{REPORT_DIR}/chunks.txt", "w", encoding="utf-8") as f:
         f.write("*" * 80 + "\n")
         f.write(policy.filename + "\n")
         for chunk in text_chunks:
@@ -93,7 +101,7 @@ async def evaluate_gdpr_policy(policy: UploadFile = File(...)):
     
     print("[API] Calculating similarity scores")
     score = regulation.total_similarity_score(embeddings, articles_dict, chunk_map, policy.filename, article_weights)
-    print(f"[API] Score calculation complete: {score}")
+    print(f"[API] Score calculation complete: {score}", flush=True)
 
     llm_report = LLMReport(
         model_url=OLLAMA_HOST,

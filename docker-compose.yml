@@ -60,6 +60,11 @@ services:
     volumes:
       - ./src:/app/src
       - ./data:/app/data     
+      - ./uploads:/app/uploads 
+      - ./report:/app/report
+      - ./model_cache:/root/.cache 
+
+
 
     depends_on:
       qdrant:

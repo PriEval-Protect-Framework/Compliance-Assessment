@@ -104,27 +104,56 @@ The API will:
 
 ---
 
-## Docker Container Setup
+## Docker Container Setup (with GPU & Ollama Support)
 
-documentation:
-https://hub.docker.com/r/ollama/ollama
+### 1. Install NVIDIA Container Toolkit (for GPU support)
 
-make sure you just have GPU support and NVIDIA Container Toolkit installed 
+If you're running on Linux and want to use your GPU inside Docker:
 
+🔗 Official guide:  
 https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#installation
 
+#### Run the following to install:
+```bash
+curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg && \
+curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | \
+sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | \
+sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
 
-curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
-  && curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | \
-    sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | \
-    sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
 sudo apt-get update
 sudo apt-get install -y nvidia-container-toolkit
 
-# Configure NVIDIA Container Toolkit
+# Configure and restart Docker
 sudo nvidia-ctk runtime configure --runtime=docker
 sudo systemctl restart docker
+```
 
-# Test GPU integration
-docker run --gpus all nvidia/cuda:11.5.2-base-ubuntu20.04 nvidia-smi
+---
 
+### 2. Verify GPU Access
+
+Use this command to check that Docker can access your GPU:
+
+```bash
+docker run --rm --gpus all nvidia/cuda:11.5.2-base-ubuntu20.04 nvidia-smi
+```
+
+If it prints your GPU model, you’re good to go.
+
+---
+
+### 3. Build and Start the App
+
+In the root of the project, run:
+
+```bash
+docker compose up --build
+```
+
+This will:
+- Build the FastAPI app
+- Spin up Qdrant
+- Launch the Ollama container
+- Mount all relevant folders (uploads, report, etc.)
+
+---
