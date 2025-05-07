@@ -1,344 +1,753 @@
 ********************************************************************************
-NHG-Privacy-Policy-2021.pdf
-1.0
-Changelog
-Version Date
-Author
-Description
-Privacy Policy
-This encompasses all privacy issues relating to POPIA
-Author:
-Creation date:
-Linda Motaung
-01/08/2021
-Doc. Ref.:
-Version:
-Privacy Policy – NHG V1.0
---------------------------------------------------------------------------------
-1.0
-Distribution
-This document will be distributed to:
-Name
-Title
-Date of Issue
-Version Version 1.0 01082021
-PRIVACY POLICY
-National Health Group (Pty) Ltd incorporating Enablemed (Pty) Ltd, hereinafter referred to as
-National HealthCare Group, recognises the importance of protecting personal information and
-the constitutional right of its customers to have their personal information kept private,
-confidential and used only for lawful purposes. As prescribed in the POPI Act (Act 4 of 2013),
-the National HealthCare Group aims to adhere to all data protection laws and has
-implemented safeguards to ensure that all the personal information relating to its customers
-is kept safe from unauthorised access.
-Please read this Privacy Policy carefully to understand how your personal information
-will be handled by National HealthCare Group.
---------------------------------------------------------------------------------
-1. ABOUT THE GROUP
-National Health Group (Pty) Ltd is a legally registered Managed Care and Healthcare
-Administrator that provides healthcare services to low-income Employer groups, Insurers and
-the Medical-Aid industry. The Group is subject to various South African laws as a healthcare
-service provider and adheres to the ethical rules that protect the privacy and confidentiality of
-its member’s personal information, namely the POPI Act.
-Contact details of the Group:
-Physical Address:
-Office 0302, Mill House, Boundary Terraces, Corner Campground and
-Mariendahl Lane, Newlands, 7700, Cape Town
-Postal Address:
-PO Box 44331, Claremont, 7700
-Telephone Number: 021 276 5600
-Email address:
-compliance@nationalhealthcare.co.za
-Website address:
-www.nationalhealthcare.co.za
---------------------------------------------------------------------------------
-2. INFORMATION OFFICER
-Information Officer of the Group:
-Name:
-Patrick Lubbe
-Email:
-compliance@nationalhealthcare.co.za
-Telephone:
-0860 002 400
---------------------------------------------------------------------------------
-3.1 “Data subject” refers to the person (e.g., member) or entity to whom the personal
-information relates.
---------------------------------------------------------------------------------
-3.2 “Personal information” has the meaning assigned to it in POPIA and refers to
-information relating to human beings and certain juristic persons. It includes information Version 1.0 01082021
-such as race, gender, pregnancy, age, health status and medical information, date of birth,
-identity number, contact details and confidential correspondence.
---------------------------------------------------------------------------------
-3.3 “Processing” has the meaning assigned to it in POPIA and refers to any operation or
-activity concerning personal information, such as the collection, receipt, recording,
-storage, updating, alteration, use, distribution, erasure, or destruction of the information.
---------------------------------------------------------------------------------
-3.4 “POPIA/ POPI Act” means the Protection of Personal Information Act (Act 4 of 2013) and
-its Regulations.
---------------------------------------------------------------------------------
-3.5 “We” / “us” refers to National Health Group (NHG) also known as National Healthcare.
-This definition includes Enablemed (Pty) Ltd, as the latter is a fully owned subsidiary of
---------------------------------------------------------------------------------
-3.6 “Member” / “You” / “Customers” refers to the data subject (i.e., the person or entity)
-whose personal information is processed by the Group.
---------------------------------------------------------------------------------
-4. APPLICATION OF THE PRIVACY POLICY
-This Privacy Policy applies to personal information that we have in our possession or under
-our control and personal information that we collect from our customers. It stipulates, amongst
-others, how we collect the information, the type of information collected, why that information
-is collected, the circumstances under which that information will be shared with others, the
-security measures that we have implemented to protect the information and how you may
-obtain access to correct your information.
---------------------------------------------------------------------------------
-5. OUR COMMITMENT
-We understand the importance of protecting personal information thus we are committed to
-conducting our business activities lawfully in accordance with the Privacy laws of the Republic.
-We will, therefore, only process, which includes collect, use, store or disclose, our members
-personal information in accordance with the law to offer contractually approved healthcare
-services and we will always strive to keep our members personal information confidential. We
-have implemented a number of processes to make sure that the personal information of our
-members that is in our care is used responsibly and protected in the right way.
-We apply the following principles in order to protect our members privacy:
+AHA-Privacy-Policy-2021.pdf
+1. Information We Collect and How We Use It
+AHA collects information from several sources that enables AHA to identify or contact you (“Personal
+Information”). An AHA website collects Personal Information in a variety of manners and the types of
+Personal Information we may collect from you will depend on the products and services you choose.
+Our Web server automatically collects the domain name and Internet Protocol (“IP”) address for
+each visitor to our websites. We collect information about the usage of our websites. In addition, we may request or require you to provide Personal Information and/or create an account in order to
+access certain services or engage in certain activities on an AHA website. The information collected
+depends on how you choose to use our services and our websites, as detailed below.
+The types of Personal Information we collect includes, but is not limited to:
 •
-We only collect the personal information that is necessary,
+General information (e.g., your name, date of birth, home and business address, email
+address, phone number, and other types of demographic information)
 •
-We only use personal information for the purposes specified in this Privacy Policy,
+Professional information (e.g., occupation, place of employment, professional history)
 •
-We do not keep personal information longer than needed for lawful purposes; and
+Financial information (e.g., credit card information, billing information)
 •
-We only share our members personal information as specified in this Privacy Policy and
-as permitted in terms of the law. Version 1.0 01082021
---------------------------------------------------------------------------------
-6. COLLECTION OF PERSONAL INFORMATION
-The Group collects personal information directly from its customers who are Employer groups,
-Insurers and Medical Aid schemes as part of carrying out its contractual duties. At times, the
-Group may directly collect personal information from registered members of Employer groups,
-Insurers/ Medial Aid schemes when they supply information on the Group’s website or on the
-various interactive social media communication platforms.
-Personal Information may also be collected from other sources, depending on the
-circumstances, when it is, for example, not possible to obtain the information directly from
-members or to protect the legitimate interests of members as part of a provision of medical
-services. The information may be collected from persons, such as the members next-of-kin,
-other health care practitioners involved in the care or when the members information is publicly
-available. The information that we collect about members is necessary to ensure they are
-provided with the contractually required healthcare services.
---------------------------------------------------------------------------------
-7. PROCESSING OF YOUR PERSONAL INFORMATION
-There are various laws that permit the processing of personal information in the provision of
-contractual healthcare services such as the National Health Act, POPI Act and the Medical
-Schemes Act. Employment laws of the Republic permit the processing of employee’s
-information by the employer for the fulfilment of legal administrative obligations.
-As far as the Company understands, all personal information is deemed private and attended
-to according to the POPI Act. We process the personal information listed below, if applicable
-in the circumstances, and retain it as part of our records:
---------------------------------------------------------------------------------
-7.1    Records relating to the formation of the company:
-Documents related to the establishment of the company, CIPC documents,
-memorandum of incorporation, its directors and shareholders records as required in
-terms of the Companies Act 71 of 2008; a shareholders’ agreement; shareholders
-register, other statutory records; governance documents (e.g., company policies,
-minutes of meetings); company number registration and other related documents.
---------------------------------------------------------------------------------
-7.2
-Employment records:
-Employment contracts; conditions of employment and workplace policies; skills
-development plans and training records; salary register; relevant tax records; leave
-records; medical scheme membership records; Pension and Provident fund records;
-performance indicators and other correspondence. In the provision of caring of
-employees relevant medical and disability information, including Covid-19 screening Version 1.0 01082021
-information may be collected.
-In the case of Job applicants, the Group collects information such as titles, identity
-numbers, dates of birth, age, contact details, addresses, HPCSA / statutory council
-number, nationality, gender, race, qualifications, specialisation, interests, vetting and
-other information that may be included on CVs. This information is destroyed should the
-employment process not move forward with the applicant. In the case of successful
-employment, the details form part of the employee file which is subject to POPIA
-protection laws.
---------------------------------------------------------------------------------
-7.3
-Health administration records:
-In the provision of healthcare services, the National Health Group may collect however
-not limited to the following: Member medical records; photos, healthcare benefits; patient
-communication; names and contact details of next-of-kin, billing and payment details,
-claim related information such as procedures performed / treatment provided and
-relevant reports (e.g., radiological images and reports, pathology results), and other
-information on health-related services.
---------------------------------------------------------------------------------
-7.5
-Clinical trial / research studies records:
-No records are kept by the company related to clinical trials / research studies.
---------------------------------------------------------------------------------
-7.6
-Health and safety records:
-Health and safety reports and other regulatory compliance records required by the law.
---------------------------------------------------------------------------------
-7.7
-Financial records:
-Financial statements; auditors’ reports; accounting records; bank statements; invoices,
-statements and receipts; remittance advices; tax returns and related documentation.
---------------------------------------------------------------------------------
-7.8
-Records related to assets:
-Asset register; purchase records; licences; financing and lease agreements; sale and
-purchase agreements; delivery notes and orders.
---------------------------------------------------------------------------------
-7.9
-Agreements:
-Agreements and related documentation with service providers, contractors, consultants,
-suppliers, vendors, medical schemes, doctors who are approved providers, professional
-assistants and other business-related agreements. Version 1.0 01082021
---------------------------------------------------------------------------------
-7.10 Public and private body (e.g., regulators and medical schemes) records:
-Official accreditation documents; benefit schedules and other healthcare administration
-related correspondence.
---------------------------------------------------------------------------------
-7.11 Insurance records (including professional indemnity cover):
-Policies, cover, claims and related records.
---------------------------------------------------------------------------------
-8. CONSENT
-The processing of personal information is subject to the consent received through contractual
-agreements with the various Employer Groups, Insurers and Medical Aid Schemes. Consent
-of member may be withdrawn at any time. This does not affect the processing of personal
-information that has already occurred. Should a member withdraw consent through the
-Employer Group, Insurer and Medical Aid scheme, this will be processed as provided for in
-the law.
---------------------------------------------------------------------------------
-9. OBJECTION TO PROCESSING
-When we process personal information, it is with the intention to promote our members
-healthcare interests, to ensure that their healthcare benefits are accessed and processed
-according to the relevant rules. The members may however object to our processing, if it is
-reasonable to do so. This must occur on the form prescribed by POPI Act, available at
-reception / from the Group’s Information Officer or from the Information Regulator. This does
-not affect the personal information that has already processed. Should a member object and
-the Group agrees with the objection, the members personal information will only be processed
-as provided for in the law.
---------------------------------------------------------------------------------
-10. PURPOSES OF PROCESSING OF YOUR PERSONAL INFORMATION
-All Information that the Group collects is collected with the aim of providing healthcare services
-as per our contractual agreements.
-The collected information is used to carry out business activities such as:
+IP addresses
 •
-Information is used for the administration of the contracted healthcare service,
+Individual responses to surveys
 •
-Information is used for the provision of managed care services on the contracted
-healthcare plan,
+Topical areas of interest
 •
-Information is used for the provision of relevant information to a contracted third party
-who requires this information in order to provide a healthcare service to members and
-beneficiaries on our healthcare plan, Version 1.0 01082021
+Website usage (e.g., search terms, referring/exit pages, time on a website, number of clicks)
+AHA also collects information that is about you individually, but that does not directly identify you as
+you interact with an AHA website (“Non-Personal Information”). The types of Non-Personal
+Information we collect includes, but is not limited to:
 •
-Information is used for reporting to persons and bodies, as required and authorised in
-terms of the law or by the data subjects,
+Products and services viewed
 •
-Information is used for employment / contracting and related matters of the Groups
-employees,
+Internet service provider
 •
-Information may be used, at the request of the regulator for the support of law
-enforcement structures, including courts and tribunals,
-•
-Information may be used for any other lawful purpose related to the activities of the
-Group.
+Geolocation data
 --------------------------------------------------------------------------------
-11. DISCLOSURE OF YOUR PERSONAL INFORMATION
-We will share only relevant personal information about our members with our business
-partners if it is necessary and lawful in the provision of healthcare services. We share this
-personal information with our service providers that help with our business activities, including
-but not limited to benefit management, claim processing, bank refunds and other health care
-administration related services. In adherence to the POPI Act, we require our service providers
-to keep our members personal information safe and secure. We do not allow our service
-providers to use or share our members personal information for any purpose other than
-providing services on our behalf.
-We do not sell or provide personal information to third parties for independent use. However,
-as a healthcare services provider and administrator, we do share personal information with
-our healthcare business partners and suppliers when that information is required to provide
-the healthcare service necessary to carry out services.
-Our business partners, suppliers and service providers are committed to adhering to the POPI
-Act and to using the members information only as directed by us and as per our contractual
-agreements with the relevant Employer Groups, Insurers/ Medical Aid Schemes.
+a. Commonly Accepted Practices
+Personal Information collected may be used for commonly accepted practices, including:
 --------------------------------------------------------------------------------
-12. RECORD-KEEPING
-We maintain the records of our members personal information for as long as legally required
-for the lawful executing of our business activities, in the provision of healthcare services.
+1. Product service fulfillment, such as the use of addresses for shipping and credit card
+information for payment;
 --------------------------------------------------------------------------------
-13. INFORMATION SENT ACROSS THE BORDERS OF THE REPUBLIC OF SOUTH AFRICA
-We process and store our members information in records within the Republic South Africa. If
-we must provide personal information to any third party in another country, we will obtain prior
-consent from members unless such information may be lawfully provided to that third party. Version 1.0 01082021
+4. Internal operations, such as the use of identity-verification technologies, and the review of
+server logs;
 --------------------------------------------------------------------------------
-14. SECURITY OF YOUR PERSONAL INFORMATION
-We value the information that our members choose to provide us for business purposes and
-will therefore take reasonable steps to protect this personal information from loss, misuse or
-unauthorised alteration. The information we maintain concerning our members is stored in
-databases that have built-in safeguards to ensure the privacy and confidentiality of that
+7. Marketing of products and services to you by AHA, such as the recommendation of products
+or the delivery of coupons based upon prior purchases.
+We use Non-Personal Information to improve the usability of our websites and for other business
+reasons. We or other third party companies also use the Non-Personal Information to provide
+advertisements and targeted advertisements to you based on the Non-Personal Information.
+--------------------------------------------------------------------------------
+b. Information Collected to Create an Account
+There are times when AHA may request or require you to create an account with us in order to
+obtain certain services. In such cases we may collect user name or ID and password information
+from you. We use this information to verify users’ identities in order to prevent unauthorized access
+to users’ personal information. AHA allows account holders to elect to have the AHA website
+remember their login information between visits so they do not have to log in each time. This is done
+by checking a box labeled “remember me” on the login page. This feature requires the placement of
+a small text file called a cookie (see next section) on the user’s hard drive. The cookie tells the site
+that the user has logged in before. As part of registering for some of AHA’s products and affiliates,
+we may collect contact and demographic information such as your name, address, email address, etc. We may also collect information regarding your personal and professional history, interests,
+activities, experiences and interests in health care products and services. Certain information may
+be required in order to complete the registration process.
+--------------------------------------------------------------------------------
+c. Cookies
+Several portions of the AHA websites use cookies. Cookies are small data files that are transferred
+to your computer through your Web browser. Cookies are used by most websites. We may use
+cookies, clear gifs, and log file information to: (i) store information so that you will not have to re-
+enter it during subsequent visits; (ii) provide personalized content on AHA.org and to provide
+targeted advertising on other sites; (iii) monitor effectiveness of marketing campaigns; (iv) record site
+analytics such as total number of visitors, pages viewed, etc.; and (v) track your entries, submissions
+and communications. Certain features of our website require cookies in order to function properly.
+Most browsers are initially set up to accept cookies, but you can reset your browser to refuse all
+cookies or to indicate when a cookie is being sent. Some AHA website features and services may
+not function properly if you set your browser to refuse cookies. If you view an AHA website without
+changing your cookie settings, you are indicating your consent to receive all cookies (that are not
+related to third party advertisers and analytics providers) from the AHA website. For more
+information on managing cookies operated by third party advertisers and analytics providers, please
+see Third Party Advertisers and Analytics below.
+--------------------------------------------------------------------------------
+d. Email Addresses and Mailing Lists
+AHA collects and uses the email addresses and mailing addresses of its members (see Section 2.
+Members’ Information, below) for purposes of providing membership benefits and services to
+members. In addition, AHA collects email and mailing addresses in connection with registration for
+and attendance at conferences, webinars and other events, subscriptions for publications, the
+purchase of products and services, and in other circumstances. We may use your email address or
+other Personal Information to send commercial or marketing messages to you regarding AHA’s
+products or services. In addition, we may also use your name, mailing address, e-mail address, or
+other Personal Information (i) to send commercial or marketing messages on behalf of our affiliated
+organizations or on behalf of unrelated third parties, and/or (ii) in a mailing list sold to third parties for
+the marketing of their products and services. For example, we may share contact information you
+provide when you register for a conference or webinar with conference exhibitors or webinar
+sponsors so that they may send you commercial messages. You may opt-out of any or all of such
+disclosures as provided below.
+--------------------------------------------------------------------------------
+e. Surveys
+Our online surveys may ask respondents for contact, demographic and other Personal Information.
+The ways in which such information may be used or disclosed will be described in the survey
+materials. We also may use contact information from our surveys to send the user information about
+products and services of AHA, our affiliated organizations and/or unrelated third parties.
+--------------------------------------------------------------------------------
+f. Information from Other Sources
+The information we collect is gathered from several sources. Such sources may include, but are not
+limited to: membership enrollment; conference, webinar, distance learning and other event
+registration; website visits; newsletter and magazine subscriptions; and product sales. We may
+combine the information you submit when using one of our services with information (i) collected
+from your use of other AHA services, (ii) collected by AHA affiliated organizations, or (iii) obtained from third parties. The combined information may be used in a similar manner to any other
+information we collect.
+--------------------------------------------------------------------------------
+2. Members’ Information
+The AHA and its affiliated organizations offer individuals and institutions the opportunity to become
+members of the AHA and its affiliates. As part of membership enrollment, we may require or ask you
+for Personal Information and/or organizational information. We will create a member profile for you
+using such information and other information collected as described in this Privacy Policy. We may
+share the information in the member profile created with respect to membership in one AHA
+organization with other AHA affiliated organizations. The information you submit as part of your
+membership may also be used to compile a member directory or a list of persons registered to
+attend an event (either hardcopy or electronic). Such directories and lists may be shared with other
+members within a group, other registrants or third parties for marketing of their products and
+services.
+--------------------------------------------------------------------------------
+a. Public Profiles
+Some or all of the information AHA collects from you as part of registrations of certain products and
+affiliates may be maintained in your account profile. This account profile will be visible to third parties
+accessing an AHA website except as set forth herein. We may make tools available for you in your
+account settings that will enable you to limit some of the data that will appear to third parties in your
+account profile.
+--------------------------------------------------------------------------------
+3. Third Party Advertisers and Analytics
+This Privacy Policy applies to AHA websites only. We may allow third party ad servers or ad
+networks to serve advertisements within AHA’s websites. These third party ad servers or ad
+networks use technology to send, directly to your browser, the advertisements and links that appear
+on the website. They automatically receive your IP address when this happens. They may use other
+technologies such as cookies, scripting language or clear gifs to measure the effectiveness of their
+advertisements and to personalize the advertising content you see.
+These third parties may view, edit, or set their own cookies. They may also collect non-personal and
+personal information concerning your online activities over time and across different websites. The
+information they may collect includes the other sites you have visited or applications that you have
+downloaded to your mobile device, and other information about you or your device in order to help
+analyze and serve targeted advertising on the AHA website and elsewhere. For more information
+about third party ad servers and your ability to opt-out of targeted advertising from such third parties,
+please visit the Network Advertising Initiative and/or the Digital Advertising Alliance Self-Regulatory
+Program for Online Behavioral Advertising.
+We may use a data analytics firm, such as Google Analytics, Ping Identity and Marketo to track and
+analyze traffic on an AHA website. These companies use cookies and similar technologies to collect
+and analyze information about use of the AHA website and report on activities and trends. This
+service may also collect information regarding the use of other websites, apps, and online resources.
+You can learn about Google’s privacy practices by reviewing their privacy terms, currently found at
+https://policies.google.com/technologies/partner-sites, and you can opt out of providing analytics by
+downloading the Google Analytics opt-out browser add-on, available at
+https://tools.google.com/dlpage/gaoptout. You can learn about Ping Identity privacy practices
+available at https://www.pingidentity.com/en/legal/privacy.html. AHA does not provide any Personal Information to these third party ad servers or ad networks
+without your consent or except as part of a specific program or feature for which you will have the
+ability to opt-in or opt-out.
+--------------------------------------------------------------------------------
+4. “Do Not Track” and Global Privacy Control
+Signals
+Note that your browser settings may allow you to automatically transmit a “Do Not Track” signal to
+websites and online services you visit. When you choose to turn on the “Do Not Track” settings in
+your browser, your browser will send a signal to websites, analytics providers, advertisements
+networks, plug-in providers, and other web service providers you encounter while browsing to stop
+tracking your activity. To find out more about “Do Not Track,” please visit www.allaboutdnt.com.
+Global Privacy Control (“GPC”) is a technical specification in your browser settings that you can use
+to automatically inform websites of your privacy preferences with regard to third party online
+tracking. To find out more about and set up GPC, please visit https://globalprivacycontrol.org/#about.
+--------------------------------------------------------------------------------
+5. Social Media Interactions and Third Party
+Links
+AHA’s websites and publications contain many links to other websites. In addition, AHA and its
+affiliates may maintain a presence on third party sites such as Facebook® or LinkedIn®. These third
+party sites may send their own cookies to users, collect data or solicit personal information. AHA is
+not responsible for the privacy practices or the content of these other sites. Please review each site’s
+privacy policy to learn about how they may collect or use information.
+AHA websites may contain functionality that enables you to import profile information or contacts
+from third party services (e.g., LinkedIn, Facebook, Twitter, Gmail, etc.) (collectively, “Third Party
+Accounts”). If you choose to do this, you may have to log into the applicable Third Party Account,
+using such account’s user name and password. The copy of the information received by us shall be
+subject to this Privacy Policy. However, any data maintained by in Third Party Accounts and by such
+third party service and your use of that third party service will be subject to that third party’s separate
+terms of use and privacy policy.
+--------------------------------------------------------------------------------
+6. Information Sharing
+In addition to the information sharing described elsewhere in this Privacy Policy, the AHA shares
+Personal Information with AHA affiliated organizations and other trusted businesses or persons to
+perform functions on our behalf. These third parties have access to Personal Information needed to
+perform their functions, but may not use it for other purposes.
+In the unlikely event that AHA or one of its affiliated organizations is acquired, or substantially all of
+the assets of AHA or one of its affiliated organizations are acquired, by a third party either in a sale,
+bankruptcy court proceeding or otherwise it is possible that Personal Information of website users
+and customers would be one of the assets transferred. In such an event, AHA would take
+reasonable steps to require the third party to maintain our privacy policies and practices.
+In addition, AHA may disclose Personal Information to third parties, but only: 1. to contractors we use to support our business, provided they only use the Personal
+Information for AHA purposes;
+--------------------------------------------------------------------------------
+2. to respond to law enforcement requests, where required by applicable laws, court orders,
+warrants, subpoenas (whether civil or criminal) or governmental regulations.
+--------------------------------------------------------------------------------
+7. Information Security
+AHA implements commercially reasonable security measures to help protect against unauthorized
+access to or unauthorized alteration, disclosure, or destruction of data. Please understand that no
+one can give an absolute assurance that information intended to be maintained as private, whether
+transmitted via the Internet or otherwise, cannot be accessed inappropriately or unlawfully by third
+parties. It is important for you to protect against unauthorized access to your password and to your
+computer. Be sure to sign off when finished using a computer.
+--------------------------------------------------------------------------------
+8. Children’s Privacy
+The AHA website is not intended for children under eighteen (18) years of age. AHA does not
+knowingly solicit or collect personal information from or about any such children, and AHA does not
+knowingly market its products or services to any such children. If AHA becomes aware that it has
+inadvertently received personal information from a User under the age of eighteen (18), it will delete
+such personal information from its records.
+--------------------------------------------------------------------------------
+9. Consent to Transfer
+AHA is based in the United States and the information we collect is governed by United States law.
+By accessing or using an AHA website or providing us with any information, you consent to the
+transfer, processing and storage of your information in and to the United States and other countries,
+jurisdictions in which the privacy laws may not be as comprehensive as those in the country where
+you reside and/or are a citizen.
+--------------------------------------------------------------------------------
+10. Changes to Our Privacy Policy
+AHA MAY MODIFY THIS PRIVACY POLICY AT ANY TIME, AND ANY CHANGE WILL BE
+EFFECTIVE IMMEDIATELY UPON POSTING OF THE MODIFIED PRIVACY POLICY. YOU
+AGREE TO REVIEW THE PRIVACY POLICY PERIODICALLY TO BE AWARE OF SUCH
+MODIFICATIONS AND YOUR CONTINUED ACCESS OR USE OF THE SITE SHALL BE DEEMED
+YOUR CONCLUSIVE ACCEPTANCE OF THE PRIVACY POLICY, AS MODIFIED. THE
+EFFECTIVE DATE OF THE LATEST VERSION OF THIS PRIVACY POLICY WILL BE REFLECTED
+IN THE DATE LISTED ABOVE.
+IF FOR ANY REASON AHA WOULD LIKE TO USE THE INFORMATION YOU HAVE SUBMITTED
+FOR SUBSTANTIALLY DIFFERENT PURPOSES OTHER THAN THOSE OUTLINED AT THE TIME
+YOU ORIGINALLY SUBMITTED YOUR INFORMATION, AHA WILL AFFIRMATIVELY REQUEST
+PERMISSION FROM YOU TO USE SUCH DATA FOR THOSE SUBSTANTIALLY DIFFERENT
+PURPOSES PRIOR TO USING THE DATA. 11. Accessing and Updating Personal
+Information
+You may request access to your Personal Information, corrections and/or deletions of the same by
+using the Contact Information set forth below. We will use reasonable, good faith efforts to promptly
+address your concerns, subject to legal retention obligations and legitimate business needs.
+When making a request, individual users are asked to identify themselves and the information
+requested to be accessed, corrected or removed. Please note that there may be circumstances
+where we are not required to comply with your requests (e.g., if AHA has an ongoing requirement to
+retain your Personal Information for our own business or legal compliance purposes). We may
+decline to process requests that are unreasonably repetitive or systematic, require disproportionate
+technical effort, jeopardize the privacy of others, would be extremely impractical, or for which access
+is not otherwise required. Correcting or removing data is done free of charge to the user unless
+doing so requires a disproportionate effort. After deleting your information from active servers,
+copies may remain in our backup system.
+Nevada provides its residents with a limited right to opt-out of certain Personal Information sales.
+Residents who wish to exercise this sale opt-out rights may submit a request to the AHA Compliance
+Officer at the contact information provided below in Section 13. However, please know AHA does
+not currently sell data triggering that statute’s opt-out requirements.
+--------------------------------------------------------------------------------
+12. Marketing Emails and Mobile Messages
+You may opt out of receiving marketing e-mails by following the opt-out instructions provided to you
+in those e-mails. Please note that we reserve the right to send you certain communications relating
+to your account or use of an AHA website or other AHA services, such as administrative and
+services announcements. These transactional account messages may be unaffected if you choose
+to opt out from marketing e-mails.
+If you sign up to receive SMS or MMS messages from AHA, you may unsubscribe from any SMS or
+MMS messages received by replying “STOP”.
+--------------------------------------------------------------------------------
+13. Contact Information and Opt-Out Requests
+We welcome your comments, suggestions, and questions about our Privacy Policy and privacy
+practices. If you feel that AHA is not following this Privacy Policy, please contact us as follows.
+Contact Information:
+By email at compliance@aha.org
+By phone at 312-422-3000
+By mail at American Hospital Association
+c/o Compliance Officer
+155 N. Wacker Dr., Suite 400
+Chicago, IL 60606
+We also welcome users’ requests not to receive certain forms of communication from AHA and third
+parties and not to have certain information shared with nonaffiliated third parties. If you prefer that
+we not disclose your Personal Information to nonaffiliated third parties, you may request us not to
+make those disclosures (except as required by law) by contacting us as described above. If you
+elect to opt out of certain disclosures, we may not be able to offer you certain services and products.
+Please note that Personal Information does not include publicly available information that is lawfully made available to the general public from federal, state or local government records, widely
+distributed media or disclosures to the general public required by law.
+--------------------------------------------------------------------------------
+14. LISTSERV® Email Lists and Social Media
+Sites
+AHA may offer opportunities to its members and others to share information and participate in social
+networking on AHA websites or AHA may participate in social media sites maintained by others.
+Please consult the privacy policy applicable to the particular website before participating in any
+social networking or content sharing activity.
+--------------------------------------------------------------------------------
+15. Terms of Use
+If you choose to visit one of AHA’s websites, your visit and any dispute over privacy is subject to this
+Privacy Policy and our Terms of Use, including limitations on damages, resolution of disputes and
+application of the law of the State of Illinois. Health Forum Inc.
+Privacy Notice for California Residents
+Effective Date: June 22, 2023
+This Privacy Notice for California Residents (“Privacy Notice”) is for the American Hospital
+Association (“AHA”) affiliate Health Forum Inc. only and supplements the information contained in
+the AHA Privacy Policy and applies solely to all visitors, users, and others who reside in the State of
+California (“consumers” or “you”). We adopt this Privacy Notice, as it relates to the operations of Health
+Forum Inc. only, to comply with the California Consumer Privacy Act of 2018 (“CCPA”) and any terms
+defined in the CCPA have the same meaning when used in this Privacy Notice. In the event of a
+conflict between the terms of the Privacy Policy and this Privacy Notice, this Privacy Notice will control
+with respect to the subject matter contained herein.
+Information Health Forum Inc. Collects
+Health Forum Inc, through the AHA websites (each an “AHA website”) and in a variety of other
+manners (including your mobile device, through email, in physical locations, through the mail, and/or
+over the telephone), collects information that identifies, relates to, describes, references, is reasonably
+capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular
+consumer, household, or device (“personal information”). The types of information collected are set
+forth under the “Information Collected“ heading in the Privacy Policy.
+Health Forum Inc. may have collected the following categories of personal information from its
+consumers within the last 12 months:
+Category
+Examples
+Collected
+--------------------------------------------------------------------------------
+A. Identifiers.
+A real name, alias, postal address, unique personal identifier,
+online identifier, Internet Protocol address, email address,
+account name, Social Security number, driver’s license
+number, passport number, or other similar identifiers.
+YES
+--------------------------------------------------------------------------------
+B. Personal
+information
+categories listed in
+the California
+Customer Records
+statute (Cal. Civ.
+Code § 1798.80(e)).
+A name, signature, Social Security number, physical
+characteristics or description, address, telephone number,
+passport number, driver’s license or state identification card
+number, insurance policy number, education, employment,
+employment history, bank account number, credit card number,
+debit card number, or any other financial information, medical
+information, or health insurance information.
+Some personal information included in this category may
+overlap with other categories.
+YES
+--------------------------------------------------------------------------------
+C. Protected
+classification
+characteristics
+under California or
+Age (40 years or older), race, color, ancestry, national origin,
+citizenship, religion or creed, marital status, medical condition,
+physical or mental disability, sex (including gender, gender
+identity, gender expression, pregnancy or childbirth and related
+YES federal law.
+medical conditions), sexual orientation, veteran or military
+status, genetic information (including familial genetic
+information).
+--------------------------------------------------------------------------------
+D. Commercial
 information.
-We have implemented safeguards, continually review and update our information protection
-measures to ensure the security, integrity, and confidentiality of the information in accordance
-with industry best practices. We use industry-standard technology and encryption to prevent
-any unauthorised access to the personal information. We use security technology to ensure
-that the health-related transactions and client personal information stored with us are
-adequately secured and protected at all times. Electronic transactions are held in a secure
-environment, with controlled staff access subject to the application of appropriate passwords
-and other computer and software security techniques. Physically the offices are secured
-through industry standard office locking technology.
-We also require our employees and contractors to adhere to our information protection
-standards, only those employees and service providers that require access to member
-information to discharge their functions and to render services to us are granted access to the
-information. In the interest of providing secure healthcare services to our customers, our
-suppliers and employees have concluded agreements with or provided undertakings
-regarding the implementation of appropriate security measures, maintaining confidentiality
-and processing the information only for the agreed purposes.
-Whilst we will do all things reasonably necessary to protect our members personal information,
-we cannot guarantee nor do we accept any liability of whatsoever nature for any unauthorised
-or unlawful disclosure and/or use of the members personal information, either by employees
-and/or made by any third parties (including third party service providers) who are not subject
-to our control, unless such disclosure and/or use is as a result of our gross negligence. We
-will inform the affected member and the Information Regulator, if any person has unlawfully
-obtained access to a member’s personal information, subject to the provisions of the law.
+Records of personal property, products or services purchased,
+obtained, or considered, or other purchasing or consuming
+histories or tendencies.
+YES
 --------------------------------------------------------------------------------
-15. RIGHT TO ACCESS YOUR PERSONAL INFORMATION
-Upon a reasonable request and in accordance with the POPI Act, members have the right to
-request access to the personal information in our possession or under our control and
-information of third parties to whom we supplied that information subject to restrictions Version 1.0 01082021
-imposed in legislation. Should a member wish to exercise this right, the prescribed form needs
-to be completed, available at reception / from the Information Officer and the Information
-Regulator. This may be submitted to the Group’s compliance mail address:
-compliance@nationalhealthcare.co.za. Costs may be applicable to such request, which can
-be obtained from the Information Regulator/ Group receptionist / Group Information Officer.
-Please consult our PAIA Manual for further information.
---------------------------------------------------------------------------------
-16. ACCURACY OF YOUR PERSONAL INFORMATION
-It is important that we always have accurate information about our members on record as it
-could impact our provision of service and reliable communication. Our members must
-therefore inform us as soon as any of their information has changed. They may also request
-us to correct or delete any information. Such a request must be made in writing on the
-prescribed form, available at reception / from the Information Officer, and be submitted to the
-receptionist / Information Officer/ Compliance e-mail address. There must be sufficient detail
-to identify the information and the correction / deletion required. Information will only be
-corrected / deleted, if we agree that the information is incorrect or should be deleted.
-It may not be possible to delete all the information if we may lawfully retain it. Please enquire
-at reception or contact the Information Officer to discuss how we can assist you with your
-request. If we correct any information and the corrected information will impact on any decision
-made or to be made about the member, we will send the corrected information to persons to
-whom the information has been disclosed in the past if they should be aware of the changed
+E. Biometric
 information.
+Genetic, physiological, behavioral, and biological
+characteristics, or activity patterns used to extract a template or
+other identifier or identifying information, such as, fingerprints,
+faceprints, and voiceprints, iris or retina scans, keystroke, gait,
+or other physical patterns, and sleep, health, or exercise data.
+NO
 --------------------------------------------------------------------------------
-17. CHANGES TO THIS PRIVACY POLICY
-National Health Group reserves the right in our sole and absolute discretion, to revise or
-supplement this Privacy Policy from time to time to reflect, amongst others, any changes in
-our business or the law. We will publish the updated Privacy Policy on our website. It will also
-be available at the company’s office reception. Any revised version of the Policy will be
-effective as of the date of posting on the website, so you should always refer back to the
-website for the latest version of the Policy.
-It is our members/customers responsibility to make sure they are satisfied with any
-changes before continuing to use our services. If you have any questions concerning this
-Policy, please contact our compliance e-mail address or the Information Officer. Version 1.0 01082021
+F. Internet or other
+similar network
+activity.
+Browsing history, search history, information on a consumer’s
+interaction with a website, application, or advertisement.
+YES
 --------------------------------------------------------------------------------
-18. CONCERNS AND COMPLAINTS ABOUT THE PROCESSING OF YOUR PERSONAL INFORMATION
-All enquiries, requests or concerns regarding this Policy or relating to the processing of
-personal information by the Group should be addressed to the Information Officer. You may
-also lodge a complaint with the Information Regulator at complaints.IR@justice.gov.za. We
-would appreciate the opportunity to respond to your concerns before you approach the
-Information Regulator.
+I. Professional or
+employment-related
+information.
+Current or past job history or performance evaluations.
+NO
 --------------------------------------------------------------------------------
-19. LAWS APPLICABLE TO THIS PRIVACY POLICY
-This Privacy Policy is governed by the laws of the Republic of South Africa.
+J. Non-public
+education
+information (per the
+Family Educational
+Rights and Privacy
+Act (20 U.S.C.
+Section 1232g, 34
+--------------------------------------------------------------------------------
+C.F.R. Part 99)).
+Education records directly related to a student maintained by
+an educational institution or party acting on its behalf, such as
+grades, transcripts, class lists, student schedules, student
+identification codes, student financial information, or student
+disciplinary records.
+NO
+--------------------------------------------------------------------------------
+K. Inferences drawn
+from other personal
+information.
+Profile reflecting a person’s preferences, characteristics,
+psychological trends, predispositions, behavior, attitudes,
+intelligence, abilities, and aptitudes.
+YES
+Personal information does not include:
+•
+Publicly available information from government records.
+•
+Deidentified or aggregated consumer information.
+•
+Information excluded from the CCPA’s scope, like personal information covered by certain
+sector-specific privacy laws, including the Fair Credit Reporting Act (FRCA), the Gramm-
+Leach-Bliley Act (GLBA) or California Financial Information Privacy Act (FIPA), and the
+Driver’s Privacy Protection Act of 1994. •
+Health or medical information covered by the Health Insurance Portability and Accountability
+Act of 1996 (HIPAA) and the California Confidentiality of Medical Information Act (CMIA),
+clinical trial data, or other qualifying research data
+Collection, Use, Disclosure, Sharing and Retention of Personal Information
+Health Forum Inc. may collect, use, disclose, and/or share the personal information we collect for one
+or more of the business purposes disclosed in our Privacy Notice.
+Health Forum Inc. will not collect additional categories of personal information or use the personal
+information we collected for materially different, unrelated, or incompatible purposes without providing
+you notice.
+Health Forum Inc. will retain your information as long as we need it for business, tax or legal purposes,
+including the legal bases described in this Policy. After that, we either delete it, deidentify or aggregate
+the information.
+Sharing Personal Information
+Health Forum Inc. may share your personal information by disclosing it to a third party for a business
+purpose. Health Forum Inc. only makes these business purpose disclosures under written contracts
+that describe the purposes, require the recipient to keep the personal information confidential, and
+prohibit using the disclosed information for any purpose except performing the contract. In the
+preceding twelve (12) months, Health Forum Inc. may have disclosed personal information for a
+business purpose to the categories of third parties indicated in the following chart:
+Personal Information
+Category
+Disclosures
+A: Identifiers.
+- Service Providers providing
+services such as website hosting,
+data analysis, payment and
+transaction processing,
+sponsorship and exhibitors
+shipping and order fulfillment,
+marketing and marketing research
+activities, identity verification and
+information technology services.
+- AHA and its Affiliates
+- Government Authorities and
+Agencies
+- Professional firms or partners
+providing tax, legal and auditing
+services B: California Customer
+Records personal
+information categories.
+- Service Providers providing
+services such as website hosting,
+data analysis, payment and
+transaction processing,
+sponsorship and exhibitors
+shipping and order fulfillment,
+marketing and marketing research
+activities, identity verification and
+information technology services.
+- AHA and its Affiliates
+- Government Authorities and
+Agencies
+- Professional firms or partners
+providing tax, legal and auditing
+services
+C: Protected classification
+characteristics under
+California or federal law.
+- Service Providers providing
+services such as website hosting,
+data analysis, payment and
+transaction processing,
+sponsorship and exhibitors
+shipping and order fulfillment,
+marketing and marketing research
+activities, identity verification and
+information technology services.
+- AHA and its Affiliates
+- Government Authorities and
+Agencies
+- Professional firms or partners
+providing tax, legal and auditing
+services
+D: Commercial
+information.
+- Service Providers providing
+services such as website hosting,
+data analysis, payment and
+transaction processing,
+sponsorship and exhibitors
+shipping and order fulfillment,
+marketing and marketing research
+activities, identity verification and
+information technology services.
+- AHA and its Affiliates
+- Government Authorities and
+Agencies - Professional firms or partners
+providing tax, legal and auditing
+services
+E: Biometric information.
+None
+F: Internet or other similar
+network activity.
+- Service Providers providing
+services such as website hosting,
+data analysis, payment and
+transaction processing,
+sponsorship and exhibitors
+shipping and order fulfillment,
+marketing and marketing research
+activities, identity verification and
+information technology services.
+- AHA and its Affiliates
+- Government Authorities and
+Agencies
+- Professional firms or partners
+providing tax, legal and auditing
+services
+G: Geolocation data.
+- Service Providers providing
+services such as website hosting,
+data analysis, payment and
+transaction processing,
+sponsorship and exhibitors
+shipping and order fulfillment,
+marketing and marketing research
+activities, identity verification and
+information technology services.
+- AHA and its Affiliates
+- Government Authorities and
+Agencies
+- Professional firms or partners
+providing tax, legal and auditing
+services
+H: Sensory data.
+None
+I: Professional or
+employment-related
+information.
+None J: Non-public education
+information.
+None
+K: Inferences drawn from
+other personal
+information.
+- Service Providers providing
+services such as website hosting,
+data analysis, payment and
+transaction processing,
+sponsorship and exhibitors
+shipping and order fulfillment,
+marketing and marketing research
+activities, identity verification and
+information technology services.
+- AHA and its Affiliates
+- Government Authorities and
+Agencies
+- Professional firms or partners
+providing tax, legal and auditing
+services
+Sale of Personal Information
+Health Forum Inc. does not sell personal information to third parties.
+Your Rights and Choices
+The CCPA provides California residents with specific rights regarding their personal information. This
+section describes your CCPA rights and explains how to exercise those rights.
+Right to Know and Data Portability Rights
+You have the right to request that Health Forum Inc. disclose certain information to you about our
+collection and use of your personal information over the past 12 months (the “right to know”). Once
+we receive your request and confirm your identity (see Exercising Your Rights to Know, Correct or
+Delete), we will disclose to you:
+•
+The categories of personal information Health Forum Inc. collected about you.
+•
+The categories of sources for the personal information Health Forum Inc. collected about you.
+•
+Health Forum Inc.’s business or commercial purpose for collecting or selling that personal
+information.
+•
+The categories of third parties with whom Health Forum Inc. shares that personal information.
+•
+The specific pieces of personal information Health Forum Inc. collected about you (also called a
+data portability request).
+•
+If Health Forum Inc. sold or disclosed your personal information for a business purpose, two separate lists disclosing:
+•
+sales, identifying the personal information categories that each category of recipient
+purchased; and
+•
+disclosures for a business purpose, identifying the personal information categories that
+each category of recipient obtained.
+Right to Delete
+You have the right to request that Health Forum Inc. delete any of your personal information that we
+collected from you and retained, subject to certain exceptions. Once Health Forum Inc. receives your
+request and confirm your identity (see Exercising Your Rights to Know, Correct or Delete), we will
+review your request to see if an exception allowing us to retain the information applies. Health Forum
+Inc. may deny your deletion request if retaining the information is necessary for us or our service
+provider(s) to:
+•
+Complete the transaction for which Health Forum Inc. collected the personal information, provide
+a good or service that you requested, take actions reasonably anticipated within the context of
+our ongoing business relationship with you, or otherwise perform our contract with you;
+•
+Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or
+prosecute those responsible for such activities;
+•
+Debug products to identify and repair errors that impair existing intended functionality;
+•
+Exercise free speech, ensure the right of another consumer to exercise their free speech rights,
+or exercise another right provided for by law;
+•
+Comply with the California Electronic Communications Privacy Act (Cal. Penal Code § 1546 et.
+seq.);
+•
+Engage in public or peer-reviewed scientific, historical, or statistical research in the public interest
+that adheres to all other applicable ethics and privacy laws, when the information’s deletion may
+likely render impossible or seriously impair the research’s achievement, if you previously
+provided informed consent;
+•
+Enable solely internal uses that are reasonably aligned with consumer expectations based on
+your relationship with us;
+•
+Comply with a legal obligation; or
+•
+Make other internal and lawful uses of that information that are compatible with the context in
+which you provided it.
+Health Forum Inc. will delete or de-identify personal information not subject to one of these exceptions
+from our records and will direct our service providers to take similar action.
+Right to Correct
+You have the right to request that Health Forum Inc. correct inaccurate information we hold about you.
+Once we receive your request and confirm your identity (see Exercising Your Rights to Know, Correct
+or Delete), we may deny your request if we find that the nature of and/or purpose for processing the personal information require us to preserve our existing records. Factors that may determine whether
+Health Forum Inc. modify information include (without limitation):
+•
+How the personal information was collected;
+•
+The source of the personal information;
+•
+The sensitivity of the personal information;
+•
+Documentation concerning the accuracy of the personal information; and/or
+•
+Evidence that a correction request may be fraudulent or abusive.
+Exercising Your Rights to Know, Correct or Delete
+To exercise your rights to know, correct or delete, please submit a request by submitting the
+information in the Health Forum Inc. California Consumer Privacy Act Request Form online, or
+providing the information in the following manner:
+•
+Calling us at 1-800-424-4301
+•
+Visiting us at Health Forum Inc California Consumer Privacy Act Request Form
+Only you, or someone legally authorized to act on your behalf, may make a request to know, correct
+or delete related to your personal information. To designate an authorized agent, please provide the
+Health Forum Inc. California Consumer Privacy Act Request Form and the power of attorney form or
+other written document which permit the authorized agent to make requests on your behalf.
+You may only submit a request to know twice within a 12-month period. Your request to know,
+correct or delete must:
+•
+Provide sufficient information that allows us to reasonably verify you are the person about
+whom Health Forum Inc. collected personal information or an authorized representative:
+•
+Provide all information included in the Health Forum Inc. California Consumer Privacy Act
+Request Form. Health Forum Inc. will use this information to compare with the information
+stored in our technology systems.
+•
+Describe your request with sufficient detail that allows us to properly understand, evaluate,
+and respond to it.
+Health Forum Inc. cannot respond to your request or provide you with personal information if we
+cannot verify your identity or authority to make the request and confirm the personal information relates
+to you.
+You do not need to create an account with us to submit a request to know, correct or delete. However,
+Health Forum Inc. does consider requests made through your password protected account sufficiently
+verified when the request relates to personal information associated with that specific account.
+Health Forum Inc. will only use personal information provided in the request to verify the requestor’s
+identity or authority to make the request.
+For instructions on exercising sale opt-out rights, see Personal Information Sales Opt-Out and Opt-In
+Rights.
+Response Timing and Format
+Health Forum Inc. will confirm receipt of your request within ten (10) business days. If you do not
+receive confirmation within the 10-day timeframe, please contact us at compliance@aha.org. Health Forum Inc. endeavors to respond to a verifiable consumer request within forty-five (45) days of
+its receipt. If we require more time (up to 45 days), we will inform you of the reason and extension
+period in writing.
+If you have an account with us, Health Forum Inc. may deliver our written response to that account. If
+you do not have an account with us, we will deliver our written response by mail or electronically, at
+your option.
+Any disclosures Health Forum Inc. provides will only cover the 12-month period preceding the
+verifiable consumer request’s receipt. The response we provide will also explain the reasons we
+cannot comply with a request, if applicable. For data portability requests, Health Forum Inc. will select
+a format to provide your personal information that is readily useable and should allow you to transmit
+the information from one entity to another entity without hindrance.
+Health Forum Inc. does not charge a fee to process or respond to your verifiable consumer request
+unless it is excessive, repetitive, or manifestly unfounded. If we determine that the request warrants
+a fee, we will tell you why we made that decision and provide you with a cost estimate before
+completing your request.
+Personal Information Sales Opt-Out and Opt-In Rights
+If you are age 16 or older, you have the right to direct us to not sell your personal information at any
+time (the “right to opt-out”). Health Forum Inc. does not sell the personal information of consumers we
+actually know are less than 16 years old. Consumers who opt-in to personal information sales may
+opt-out of future sales at any time.
+To exercise the right to opt-out, you (or your authorized representative who provides written
+documentation authorizing to act on your behalf) may submit a request to us by visiting the following
+Internet Web page link:
+Health Forum Inc. California Consumer Privacy Act Request Form
+Do Not Track/Global Privacy Control (“GPC”)
+Do Not Track (“DNT”) and Global Privacy Controls (“GPC”) offered by some web browsers are
+settings that automatically inform websites of your privacy preferences with regard to third party
+online tracking, including exercising your rights and requesting the web application to disable
+tracking you. When you choose to turn on the DNT/GPC setting in your browser, your browser sends
+a special signal to websites, analytics companies, ad networks, plug in providers, and/or other web
+services you encounter while browsing to exercise your privacy rights and stop tracking your activity.
+You can learn more about and set up Do Not Track here and set up GPC here. There is no clear
+consensus on what it means to comply with these signals and Health Forum Inc. typically does not
+take additional steps in response to them, but we comply with DNT and GPC as specifically required
+under applicable law.
+Limit the Use of Sensitive Personal Information
+Health Forum Inc. does not process sensitive personal information that is subject to this limitation.
+Health Forum Inc. only uses and discloses sensitive personal information that it collected about the
+consumer for the purposes specified in the section 7027, subsection (m), of the California Consumer
+Privacy Act Regulations. Non-Discrimination
+Health Forum Inc. will not discriminate against you for exercising any of your CCPA rights. Unless
+permitted by the CCPA, we will not:
+•
+Deny you goods or services.
+•
+Charge you different prices or rates for goods or services, including through granting discounts
+or other benefits, or imposing penalties.
+•
+Provide you a different level or quality of goods or services.
+•
+Suggest that you may receive a different price or rate for goods or services or a different level or
+quality of goods or services.
+Changes to Our Privacy Notice
+Health Forum Inc. reserves the right to amend this Privacy Notice at our discretion and at any time.
+When we make changes to this Privacy Notice, we will post the updated notice on the AHA website
+and update the notice’s effective date. Your continued use of the AHA website following the
+posting of changes constitutes your acceptance of such changes.
+Contact Information
+If you have any questions or comments about this notice, the ways in which Health Forum Inc. collects
+and uses your information described above and in the Privacy Policy your choices and rights regarding
+such use, or wish to exercise your rights under California law, please do not hesitate to contact us at:
+•
+Calling us at 312-422-3000
+•
+Emailing us at compliance@aha.org
+•
+Visiting us at aha.org
+•
+Postal Address: 155 N. Upper Wacker Drive,
+Chicago, IL 60606,
+Attention AHA Compliance
+If you need to access this Privacy Notice in an alternative format due to having a disability, please
+contact us at compliance@aha.org or at 312-422-3000.
 --------------------------------------------------------------------------------

@@ -10,6 +10,8 @@ class LLMReport:
         self.ollama_base_url = (model_url or os.getenv("OLLAMA_HOST", "http://localhost:11434")).rstrip("/")
         self.model_name = model_name or os.getenv("OLLAMA_MODEL", "llama3.2:3b")
         self.report_path = report_path or os.getenv("REPORT_PATH", "../report/final_report.txt")
+        # Increase timeout for slow connections
+        self.request_timeout = 60  # Increased from 20 seconds
 
     def generate_report(self):
         print("[LLMReport] Starting report generation")
@@ -18,9 +20,6 @@ class LLMReport:
         prompts_path = os.path.join(BASE_DIR, "prompts")
         REPORT_DIR = os.path.join(BASE_DIR, "report")
 
-
-
-        
         if not os.path.exists(prompts_path):
             return "Error: Prompts file not found"
             
@@ -47,25 +46,21 @@ class LLMReport:
             "stream": False
         }
         try:
-            response = requests.post(ollama_url, json=payload, timeout=20)
+            print(f"[LLMReport] Connecting to Ollama at {ollama_url}")
+            response = requests.post(ollama_url, json=payload, timeout=self.request_timeout)
             response.raise_for_status()
             result = response.json()["message"]["content"]
+            
+            match = re.search(r"(The policy is .*?)$", result, re.DOTALL | re.IGNORECASE)
+            if match:
+                result = match.group(1)
+                output_path = f"{REPORT_DIR}/llm_report.txt"
+                os.makedirs(os.path.dirname(output_path), exist_ok=True)
+                
+                with open(output_path, "w", encoding="utf-8") as f:
+                    f.write(result)
+            return result
+            
         except requests.exceptions.RequestException as e:
             print(f"[LLMReport] Error during Ollama request: {e}")
             return f"LLM report generation failed: {e}"
-        response.raise_for_status()
-        result = response.json()["message"]["content"]
-        match = re.search(r"(The policy is .*?)$", result, re.DOTALL | re.IGNORECASE)
-        if match:
-            result = match.group(1)
-            output_path = f"{REPORT_DIR}/llm_report.txt"
-            os.makedirs(os.path.dirname(output_path), exist_ok=True)
-            
-            with open(output_path, "w", encoding="utf-8") as f:
-                f.write(result)
-        return result
-
-
-if __name__ == "__main__":
-    llm_report = LLMReport()  
-    llm_report.generate_report()
