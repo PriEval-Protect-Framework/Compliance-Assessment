@@ -9,11 +9,9 @@ from sentence_transformers import SentenceTransformer
 class Qdrant:
 
     def __init__(self):
-        # Use env variables if available (supporting docker + local)
         host = os.getenv("QDRANT_HOST", "localhost")
         port = int(os.getenv("QDRANT_PORT", 6333))
 
-        # Strip protocol if needed (e.g. http://qdrant)
         host = host.replace("http://", "").replace("https://", "").split(":")[0]
 
         self.qdrant = QdrantClient(host=host, port=port)

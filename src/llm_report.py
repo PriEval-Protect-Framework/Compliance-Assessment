@@ -6,12 +6,10 @@ import os
 
 class LLMReport:
     def __init__(self, model_url: str = None, model_name: str = None, report_path: str = None):
-        # Use environment variables or fallback defaults
         self.ollama_base_url = (model_url or os.getenv("OLLAMA_HOST", "http://localhost:11434")).rstrip("/")
         self.model_name = model_name or os.getenv("OLLAMA_MODEL", "llama3.2:3b")
         self.report_path = report_path or os.getenv("REPORT_PATH", "../report/final_report.txt")
-        # Increase timeout for slow connections
-        self.request_timeout = 60  # Increased from 20 seconds
+        self.request_timeout = 60  
 
     def generate_report(self):
         print("[LLMReport] Starting report generation")
