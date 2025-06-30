@@ -14,8 +14,6 @@ This module performs **automated GDPR compliance evaluation** of hospital policy
 
 The goal is to make legal compliance **explainable**, **quantifiable**, and **actionable**.
 
----
-
 ## Key Features
 
 - **Structure-aware policy parsing**  
@@ -25,16 +23,12 @@ The goal is to make legal compliance **explainable**, **quantifiable**, and **ac
 - REST API output for frontend dashboard integration  
 - Ready-to-use FastAPI microservice for local or cloud deployment
 
----
-
 ## Technologies
 
 - Python, FastAPI, Qdrant
 - SentenceTransformers, Hugging Face Transformers
 - Saul-7B-Instruct (fine-tuned on GDPR)
 - Docker-ready deployment
-
----
 
 ## Repository Structure
 
@@ -51,13 +45,13 @@ Compliance-Assessment/
 ├── prompts/
 │   └── prompts.yaml              # Instruction prompts used for model evaluation
 │
-├── report/
-│   └── src/                      # Main source code for GDPR compliance assessment
-│       ├── __init__.py
-│       ├── main.py               # FastAPI app entrypoint
-│       ├── qdrant.py             # Qdrant-based semantic retrieval logic
-│       ├── regulation_compare.py # Regulation-to-policy semantic matching
-│       └── llm_report.py         # LLM-based compliance justification and output
+├── report/                       # Generated LLM report on given data with scores
+├── src/
+│   └──  __init__.py
+│   ├── main.py               # FastAPI app entrypoint
+│   ├── qdrant.py             # Qdrant-based semantic retrieval logic
+│   ├── regulation_compare.py # Regulation-to-policy semantic matching
+│   └── llm_report.py         # LLM-based compliance justification and output
 │
 ├── Dockerfile                    # Container configuration for deployment
 ├── docker-compose.yml            # Optional multi-service orchestration
@@ -65,8 +59,6 @@ Compliance-Assessment/
 ├── .gitignore
 └── README.md
 ````
-
----
 
 ## Getting Started
 
@@ -84,8 +76,6 @@ uvicorn app.main:app --reload
 
 The API will be available at `http://127.0.0.1:8000/docs`
 
----
-
 ## Fine-Tuning Details
 
 The underlying model, **Saul-7B-Instruct**, was **fine-tuned on over 11,000 GDPR-labeled compliance statements**, including:
@@ -96,8 +86,6 @@ The underlying model, **Saul-7B-Instruct**, was **fine-tuned on over 11,000 GDPR
 
 We used LoRA adapters and 4-bit quantization to optimize resource use while maintaining performance.
 
----
-
 ## Outputs
 
 * GDPR compliance score (0–100)
@@ -105,21 +93,15 @@ We used LoRA adapters and 4-bit quantization to optimize resource use while main
 * LLM-generated explanation and article citations
 * Highlighted risk factors and improvement suggestions
 
----
-
 ## Related Repositories
 
-* [Privacy-Engine](https://github.com/PriEval-Protect-Framework/Privacy-Metrics): Technical privacy evaluation
+* [Privacy-Engine](https://github.com/PriEval-Protect-Framework/Privacy-Engine): Technical privacy evaluation
 * [Dashboard-UI](https://github.com/PriEval-Protect-Framework/Dashboard-UI): Frontend for visualization
-
----
 
 ## Authors
 
 Developed by **Ilef Chebil** and **Asma ElHadj**
 Supervised by \[EFREI Paris] and \[INSAT Tunisia]
-
----
 
 ## License
 
